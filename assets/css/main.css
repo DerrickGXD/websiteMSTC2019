@@ -3557,12 +3557,12 @@ textarea.form-control {
 
 
     .info_box p {
-        display: none
+        display: none !important;
     }
 
     #section_team {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
     }
 
 }
