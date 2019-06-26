@@ -43,6 +43,16 @@ $(document).ready(function () {
             Image: "suhasan_mstc.jpg"
         },
         {
+            Name: "Kenrick",
+            University: "University of Manchester",
+            Course: "Unknown",
+            Department: "Executive",
+            Position: "Executive Coordinator",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "A theoretical physics student from Imperial College London. Acting as the Executive Coordinator of MSTC 2019: Paradigm. Aiming to make a shift in participants' paradigm on Science and Technology!",
+            Image: "kenrick_mstc.jpg"
+        },
+        {
             Name: "Imran bin Ahmad Azhar",
             University: "Imperial College London",
             Course: "Unknown",
@@ -64,22 +74,22 @@ $(document).ready(function () {
         },
         {
             Name: "Zhang Quan",
-            University: "Imperial College London",
+            University: "Unknown",
             Course: "Mechanical Engineering",
             Department: "Operation and Logistics",
             Position: "Head of Department",
             About_MSTC: "Join MSTC, you'll never regret!",
-            About_Me: "I haven't reveal about myself yet.",
+            About_Me: "A mechanical engineering student from Imperial College London. Working as Head of Operations & Logistics in MSTC 2019.",
             Image: "zq_mstc.jpg"
         },
         {
             Name: "Shu Jaak Ooi",
-            University: "Imperial College London",
-            Course: "Mechanical Engineering",
+            University: "University of Manchester",
+            Course: "Chemical Engineering",
             Department: "Operation and Logistics",
             Position: "Officer",
             About_MSTC: "Join MSTC, you'll never regret!",
-            About_Me: "I haven't reveal about myself yet.",
+            About_Me: "Chemical Engineering student at the University of Manchester.",
             Image: "unknown.jpg"
         },
         {
@@ -89,7 +99,7 @@ $(document).ready(function () {
             Department: "Operation and Logistics",
             Position: "Officer",
             About_MSTC: "Join MSTC, you'll never regret!",
-            About_Me: "I haven't reveal about myself yet.",
+            About_Me: "Aerospace engineering student from University of Bristol.",
             Image: "yeo_mstc.jpg"
         },
         {
@@ -113,17 +123,218 @@ $(document).ready(function () {
             Image: "unknown.jpg"
         },
         {
-            Name: "Adam Muqhriz bin Nor Iskandar Shah",
-            University: "King's College London",
+            Name: "Leong Chun Yin",
+            University: "University College London",
             Course: "Unknown",
             Department: "Operation and Logistics",
             Position: "Officer",
             About_MSTC: "Join MSTC, you'll never regret!",
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
-        }
+        },
+        {
+            Name: "Ivan",
+            University: "University of Manchester",
+            Course: "Unknown",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "ivan_mstc.jpg"
+        },
+        {
+            Name: "Wei Hao",
+            University: "University of Southhampton",
+            Course: "Unknown",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "wh_mstc.jpg"
+        },
+        {
+            Name: "Zhen-Yen Chan",
+            University: "London School of Economics",
+            Course: "Mathematics and Statistics",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "Mathematics & Statistics student at the LSE. Working under Finance & Sponsorship for MSTC 2019.",
+            Image: "zy_mstc.jpg"
+        },
+        {
+            Name: "Bryan Wong Weng Kit",
+            University: "Monash University Malaysia",
+            Course: "Unknown",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Rabiatul 'Adawiyah Binti Salamth Ebramsa",
+            University: "University Malaysia Pahang",
+            Course: "Engineering Technology",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "Engineering technology student from Universiti Malaysia Pahang. Working under Finance and sponsorship team in MSTC'19.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Muhammad Ikram Bin Firman",
+            University: "Universiti Teknologi PETRONAS",
+            Course: "Unknown",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Toh Ho Yen",
+            University: "University of Kent",
+            Course: "Business management",
+            Department: "Finance and Sponsorship",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "Business management in university of kent.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Derrick",
+            University: "University College London",
+            Course: "Unknown",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "derrick_mstc.jpg"
+        },
+         {
+            Name: "Sher Ree",
+            University: "University of Manchester",
+            Course: "Chemical Engineering",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "sherree_mstc.jpg"
+        },
+         {
+            Name: "Yun Hong Yong",
+            University: "Imperial College London",
+            Course: "Unknown",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Zul",
+            University: "Unknown",
+            Course: "Unknown",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Jenn Tan Jia Yin",
+            University: "Imperial College London",
+            Course: "Unknown",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Jared Wong An Cheang",
+            University: "University of Manchester",
+            Course: "Chemical Engineering",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "meow meow meow woof woof woof.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Chin Yee Xin",
+            University: "University Tunku Abdul Rahman",
+            Course: "Unknown",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Sanggavi A/P R Ganesan",
+            University: "University Malaysia Pahang",
+            Course: "Energy and Environmental Engineering Technology",
+            Department: "Media and Marketing",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "Energy and Environmental Engineering Technology Student at University Malaysia Pahang. Working under Media and Marketing in MSTC 2019.",
+            Image: "sangavi_mstc.jpg"
+        },
+         {
+            Name: "Farhana",
+            University: "Unknown",
+            Course: "Unknown",
+            Department: "Human Resources",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+         {
+            Name: "Anjali",
+            University: "Unknown",
+            Course: "Unknown",
+            Department: "Human Resources",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
     ];
-
+    var mstcdepartment = [
+        
+        {
+            Department: "Executive Coordinator",
+            Job_Description: "Leads the organizing team, provides guidance to the departments and acts as spokesperson for MSTC. Provides direction and ensures success of the event."
+        },
+        {
+            Department: "Deputy Executive Coordinator",
+            Job_Description: "Assist Executive Coordinator and work with HODs. Acts as EC when away and chairs Department meetings."
+        },
+        {
+            Department: "Head of Department",
+            Job_Description: "Manages operations of their respective departments and work closely with coordinators."
+        },
+        {
+            Department: "Officer",
+            Job_Description: "Works closely with HODs in their respective departments, performing specific, department-related tasks."
+        },
+        {
+            Department: "Operations and Logistics",
+            Job_Description: "Handles the acquisition and management of logistical items such as venue,food and event protocol. Also in charge of securing speakers, security and flow of event."
+        },
+        {
+            Department: "Finance and Sponsorship",
+            Job_Description: "Drafts budget and sponsorship packages. Manages bank account and oversees cash flow for the event."
+        },
+        {
+            Department: "Media and Marketing",
+            Job_Description: "In charge of creating promotional content, such as social media posts, posters, videos, webpage and so on."
+        }    
+        
+    ]
     vid.ontimeupdate = function () {
 
 
