@@ -172,7 +172,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Rabiatul 'Adawiyah Binti Salamth Ebramsa",
             University: "University Malaysia Pahang",
             Course: "Engineering Technology",
@@ -182,7 +182,7 @@ $(document).ready(function () {
             About_Me: "Engineering technology student from Universiti Malaysia Pahang. Working under Finance and sponsorship team in MSTC'19.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Muhammad Ikram Bin Firman",
             University: "Universiti Teknologi PETRONAS",
             Course: "Unknown",
@@ -192,7 +192,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Toh Ho Yen",
             University: "University of Kent",
             Course: "Business management",
@@ -202,7 +202,7 @@ $(document).ready(function () {
             About_Me: "Business management in university of kent.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Derrick",
             University: "University College London",
             Course: "Unknown",
@@ -212,7 +212,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "derrick_mstc.jpg"
         },
-         {
+        {
             Name: "Sher Ree",
             University: "University of Manchester",
             Course: "Chemical Engineering",
@@ -222,7 +222,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "sherree_mstc.jpg"
         },
-         {
+        {
             Name: "Yun Hong Yong",
             University: "Imperial College London",
             Course: "Unknown",
@@ -232,7 +232,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Zul",
             University: "Unknown",
             Course: "Unknown",
@@ -242,7 +242,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Jenn Tan Jia Yin",
             University: "Imperial College London",
             Course: "Unknown",
@@ -252,7 +252,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Jared Wong An Cheang",
             University: "University of Manchester",
             Course: "Chemical Engineering",
@@ -262,7 +262,7 @@ $(document).ready(function () {
             About_Me: "meow meow meow woof woof woof.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Chin Yee Xin",
             University: "University Tunku Abdul Rahman",
             Course: "Unknown",
@@ -272,7 +272,7 @@ $(document).ready(function () {
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
         },
-         {
+        {
             Name: "Sanggavi A/P R Ganesan",
             University: "University Malaysia Pahang",
             Course: "Energy and Environmental Engineering Technology",
@@ -282,7 +282,7 @@ $(document).ready(function () {
             About_Me: "Energy and Environmental Engineering Technology Student at University Malaysia Pahang. Working under Media and Marketing in MSTC 2019.",
             Image: "sangavi_mstc.jpg"
         },
-         {
+        {
             Name: "Farhana",
             University: "Unknown",
             Course: "Unknown",
@@ -291,20 +291,10 @@ $(document).ready(function () {
             About_MSTC: "Join MSTC, you'll never regret!",
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
-        },
-         {
-            Name: "Anjali",
-            University: "Unknown",
-            Course: "Unknown",
-            Department: "Human Resources",
-            Position: "Officer",
-            About_MSTC: "Join MSTC, you'll never regret!",
-            About_Me: "I haven't reveal about myself yet.",
-            Image: "unknown.jpg"
-        },
+        }
     ];
     var mstcdepartment = [
-        
+
         {
             Department: "Executive Coordinator",
             Job_Description: "Leads the organizing team, provides guidance to the departments and acts as spokesperson for MSTC. Provides direction and ensures success of the event."
@@ -332,8 +322,8 @@ $(document).ready(function () {
         {
             Department: "Media and Marketing",
             Job_Description: "In charge of creating promotional content, such as social media posts, posters, videos, webpage and so on."
-        }    
-        
+        }
+
     ]
     vid.ontimeupdate = function () {
 

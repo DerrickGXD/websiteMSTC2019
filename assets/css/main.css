@@ -3440,7 +3440,8 @@ textarea.form-control {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
+
+.close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -3450,12 +3451,12 @@ textarea.form-control {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.close-modal:hover {
     opacity: .3;
 }
 
 
-.portfolio-modal .close-modal .lr {
+.close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -3466,7 +3467,7 @@ textarea.form-control {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -3504,6 +3505,14 @@ textarea.form-control {
     filter: brightness(30%);
 }
 
+.btn-circle-member {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    filter: brightness(100%);
+    cursor: pointer
+}
+
 #modal-row p {
     font-size: 0.9em;
 }
@@ -3517,6 +3526,10 @@ textarea.form-control {
     /* change this to whatever height you want it */
 }
 
+.btn-circle-member:hover {
+    filter: brightness(30%);
+}
+
 .video {
     height: auto
 }
@@ -3524,6 +3537,8 @@ textarea.form-control {
 .speaker_box {
     cursor: pointer
 }
+
+
 
 @media only screen and (max-width: 1150px) {
     #mstc_video {
@@ -3564,6 +3579,11 @@ textarea.form-control {
         display: none !important;
     }
 
+    .in-row-member {
+        display: inline-block;
+        width: 49%
+    }
+
 }
 
 @media only screen and (min-width: 1150px) {
@@ -3575,5 +3595,10 @@ textarea.form-control {
     #section_team {
         padding-left: 20%;
         padding-right: 20%;
+    }
+
+    .in-row-member {
+        display: inline-block;
+        width: 33%
     }
 }
