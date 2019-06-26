@@ -3,6 +3,8 @@ $(document).ready(function () {
 
     vid.ontimeupdate = function () {
 
+
+
         var videoTime = vid.currentTime;
 
 
@@ -1243,7 +1245,7 @@ $(document).ready(function () {
 
 
 
-        if (50 <= videoTime && videoTime < 57) {
+        if (50 <= videoTime && videoTime < 56.8) {
             console.log("yes");
 
             $("#suhasan").css({
@@ -1280,7 +1282,9 @@ $(document).ready(function () {
 
         }
 
-        if (videoTime > 57) {
+        //blink
+
+        if (56.8 <= videoTime && videoTime < 57) {
             $("#suhasan").css({
                 "filter": "brightness(100%)"
             })
@@ -1314,6 +1318,835 @@ $(document).ready(function () {
             })
 
         }
+
+        if (57 <= videoTime && videoTime < 57.2) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+
+        }
+
+        if (57.2 <= videoTime && videoTime < 57.4) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+
+        }
+
+        if (57.4 <= videoTime && videoTime < 57.6) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+
+        }
+
+        if (57.6 <= videoTime && videoTime < 57.8) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+
+        }
+
+        if (57.8 <= videoTime && videoTime < 58) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+
+        }
+
+        if (58 <= videoTime && videoTime < 58.2) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+
+        }
+
+        if (58.2 <= videoTime && videoTime < 58.4) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+
+        }
+
+        if (58.4 <= videoTime && videoTime < 58.6) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+
+        }
+
+        if (58.6 <= videoTime && videoTime < 58.8) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+
+        }
+
+        if (58.8 <= videoTime && videoTime < 59) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (59 <= videoTime && videoTime < 59.2) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+
+        }
+
+        if (59.2 <= videoTime && videoTime < 59.4) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (59.4 <= videoTime && videoTime < 59.6) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+        }
+
+        if (59.6 <= videoTime && videoTime < 59.8) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (59.8 <= videoTime && videoTime < 60) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+        }
+
+        if (60 <= videoTime && videoTime < 60.2) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (60.2 <= videoTime && videoTime < 60.4) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+        }
+
+        if (60.4 <= videoTime && videoTime < 60.6) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (60.6 <= videoTime && videoTime < 60.8) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+        }
+
+        if (60.8 <= videoTime && videoTime < 61) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (61 <= videoTime && videoTime < 61.2) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+        }
+
+        if (61.2 <= videoTime && videoTime < 61.4) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+        if (61.4 <= videoTime && videoTime < 61.6) {
+            $("#suhasan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(30%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(30%)"
+            })
+        }
+
+        if (videoTime > 61.6) {
+            $("#suhasan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#kenrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#derrick").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#weihao").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#sherree").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#farhana").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#zhangquan").css({
+                "filter": "brightness(100%)"
+            })
+
+            $("#ivan").css({
+                "filter": "brightness(100%)"
+            })
+        }
+
+
+
 
 
     };
