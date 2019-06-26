@@ -3525,7 +3525,7 @@ textarea.form-control {
     cursor: pointer
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
     #mstc_video {
         margin-left: 15%;
         width: 120%
@@ -3567,7 +3567,7 @@ textarea.form-control {
 
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1200px) {
     .img-fluid {
         width: 50%;
         height: 50%
