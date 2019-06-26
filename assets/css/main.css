@@ -3565,8 +3565,8 @@ textarea.form-control {
         padding-right: 5% !important;
     }
 
-    #section_team .info_box h5 {
-        font-size: 0.5rem
+    #section_team .info_box {
+        display: none
     }
 
 }
