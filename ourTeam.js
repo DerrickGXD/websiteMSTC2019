@@ -6,7 +6,7 @@ $(document).ready(function () {
             Name: "Zhi Chao",
             University: "Unknown",
             Course: "Unknown",
-            Department: "Adivsors",
+            Department: "Advisors",
             Position: "Advisor",
             About_MSTC: "Join MSTC, you'll never regret!",
             About_Me: "I haven't reveal about myself yet.",
