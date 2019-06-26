@@ -121,7 +121,7 @@ $(document).ready(function () {
             About_MSTC: "Join MSTC, you'll never regret!",
             About_Me: "I haven't reveal about myself yet.",
             Image: "unknown.jpg"
-        },
+        }
     ];
 
     vid.ontimeupdate = function () {
