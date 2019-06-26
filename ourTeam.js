@@ -1,6 +1,129 @@
 $(document).ready(function () {
     var vid = document.getElementById("mstc_video");
 
+    var MSTCMembers = [
+        {
+            Name: "Zhi Chao",
+            University: "Unknown",
+            Course: "Unknown",
+            Department: "Adivsors",
+            Position: "Advisor",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+        {
+            Name: "Jaselyn Chan",
+            University: "Imperial College London",
+            Course: "Chemical Engineering",
+            Department: "Advisors",
+            Position: "Advisor",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "jaselyn_mstc.jpg"
+        },
+        {
+            Name: "Cha Sheng",
+            University: "University of Cambridge",
+            Course: "Chemical Engineering",
+            Department: "Advisors",
+            Position: "Advisor",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "cs_mstc.jpg"
+        },
+        {
+            Name: "Suhasan Kanagasabapathy",
+            University: "Imperial College London",
+            Course: "Physics",
+            Department: "Executive",
+            Position: "Executive Coordinator",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "A theoretical physics student from Imperial College London. Acting as the Executive Coordinator of MSTC 2019: Paradigm. Aiming to make a shift in participants' paradigm on Science and Technology!",
+            Image: "suhasan_mstc.jpg"
+        },
+        {
+            Name: "Imran bin Ahmad Azhar",
+            University: "Imperial College London",
+            Course: "Unknown",
+            Department: "Executive",
+            Position: "Executive Coordinator",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+        {
+            Name: "Iyliana Hiylda",
+            University: "University College London",
+            Course: "Chemical Engineering",
+            Department: "Operation and Logistics",
+            Position: "Head of Department",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "ih_mstc.jpg"
+        },
+        {
+            Name: "Zhang Quan",
+            University: "Imperial College London",
+            Course: "Mechanical Engineering",
+            Department: "Operation and Logistics",
+            Position: "Head of Department",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "zq_mstc.jpg"
+        },
+        {
+            Name: "Shu Jaak Ooi",
+            University: "Imperial College London",
+            Course: "Mechanical Engineering",
+            Department: "Operation and Logistics",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+        {
+            Name: "Yeo Wei Hung",
+            University: "University of Bristol",
+            Course: "Aerospace Engineering",
+            Department: "Operation and Logistics",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "yeo_mstc.jpg"
+        },
+        {
+            Name: "Wei Yang Lee",
+            University: "Imperial College London",
+            Course: "Unknown",
+            Department: "Operation and Logistics",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+        {
+            Name: "Adam Muqhriz bin Nor Iskandar Shah",
+            University: "King's College London",
+            Course: "Unknown",
+            Department: "Operation and Logistics",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+        {
+            Name: "Adam Muqhriz bin Nor Iskandar Shah",
+            University: "King's College London",
+            Course: "Unknown",
+            Department: "Operation and Logistics",
+            Position: "Officer",
+            About_MSTC: "Join MSTC, you'll never regret!",
+            About_Me: "I haven't reveal about myself yet.",
+            Image: "unknown.jpg"
+        },
+    ];
+
     vid.ontimeupdate = function () {
 
 
