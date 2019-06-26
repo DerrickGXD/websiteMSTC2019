@@ -791,140 +791,143 @@ $(document).ready(function () {
 
         if (41.8 <= videoTime && videoTime < 42.1) {
             $("#suhasan").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#kenrick").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#derrick").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#weihao").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#sherree").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#farhana").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#zhangquan").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#ivan").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
+
 
         }
 
         if (42.1 <= videoTime && videoTime < 42.4) {
             $("#suhasan").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#kenrick").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#derrick").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#weihao").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#sherree").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#farhana").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#zhangquan").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#ivan").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
         }
 
         if (42.4 <= videoTime && videoTime < 42.7) {
             $("#suhasan").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#kenrick").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#derrick").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#weihao").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#sherree").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#farhana").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#zhangquan").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
             $("#ivan").css({
-                "filter": "brightness(100%)"
+                "filter": "invert(100%)"
             })
 
         }
 
         if (42.7 <= videoTime && videoTime < 43) {
+
+
             $("#suhasan").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#kenrick").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#derrick").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#weihao").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#sherree").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#farhana").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#zhangquan").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
             $("#ivan").css({
-                "filter": "invert(100%)"
+                "filter": "brightness(100%)"
             })
 
         }
@@ -963,7 +966,7 @@ $(document).ready(function () {
             })
         }
 
-        if (43 <= videoTime && videoTime < 43.8) {
+        if (43.3 <= videoTime && videoTime < 43.8) {
             $("#suhasan").css({
                 "filter": "saturate(2)"
             })

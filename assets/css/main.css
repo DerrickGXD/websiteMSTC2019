@@ -3524,3 +3524,41 @@ textarea.form-control {
 .speaker_box {
     cursor: pointer
 }
+
+@media only screen and (max-width: 768px) {
+    #mstc_video {
+        margin-left: 15%;
+        width: 120%
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: auto;
+        margin-left: -25%
+    }
+
+    .play-btn {
+        margin-left: -25%
+    }
+
+    .btn-circle {
+        width: 20%;
+        height: auto
+    }
+
+    .in-row p {
+        font-size: 0.3em
+    }
+
+    .in-row {
+        display: inline-block;
+        width: 49%
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .img-fluid {
+        width: 50%;
+        height: 50%
+    }
+}
