@@ -3520,3 +3520,7 @@ textarea.form-control {
 .video {
     height: auto
 }
+
+.speaker_box {
+    cursor: pointer
+}
