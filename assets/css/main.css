@@ -3561,8 +3561,12 @@ textarea.form-control {
     }
 
     #section_team {
-        padding-left: 10% !important;
-        padding-right: 10% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    #section_team .info_box h5 {
+        font-size: 0.5rem
     }
 
 }
