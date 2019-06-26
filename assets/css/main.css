@@ -3555,18 +3555,13 @@ textarea.form-control {
         width: 49%
     }
 
-
-    .info_box p {
-        display: none !important;
-    }
-
     #section_team {
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
 
     #section_team .info_box {
-        display: none
+        display: none !important;
     }
 
 }
