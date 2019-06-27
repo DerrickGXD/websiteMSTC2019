@@ -3506,12 +3506,14 @@ textarea.form-control {
 }
 
 .btn-circle-member {
-    width: 50%;
+    width: 80%;
     height: auto;
     border-radius: 50%;
     filter: brightness(100%);
-    cursor: pointer
+    cursor: pointer;
+    padding: 10px
 }
+
 
 #modal-row p {
     font-size: 0.9em;
@@ -3526,8 +3528,13 @@ textarea.form-control {
     /* change this to whatever height you want it */
 }
 
-.btn-circle-member:hover {
+.member-col:hover .btn-circle-member {
     filter: brightness(30%);
+}
+
+.member-col:hover {
+    filter: brightness(30%);
+    cursor: pointer
 }
 
 .video {
@@ -3538,6 +3545,84 @@ textarea.form-control {
     cursor: pointer
 }
 
+#member_column span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: black;
+    font-size: 1.0rem
+}
+
+.stamp {
+    color: #555;
+    font-size: 3rem;
+    font-weight: 700;
+    border: 0.25rem solid #555;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    transform: rotate(-20deg);
+    font-family: 'Courier';
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+    animation-name: fadeInBlur;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-name: fadeInBlur;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes fadeInBlur {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0.5;
+        transform-origin: 50% 50%;
+        transform: rotate(-2deg) scale(2);
+
+        transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(-20deg) scale(1);
+    }
+}
+
+@keyframes fadeInBlur {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0.5;
+        transform-origin: 50% 50%;
+        transform: rotate(-2deg) scale(2);
+
+        transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(-20deg) scale(1);
+    }
+}
+
+
+
+.is-approved {
+    border: 0.5rem solid darkcyan;
+    -webkit-mask-position: 13rem 6rem;
+    border-radius: 0;
+}
 
 
 @media only screen and (max-width: 1150px) {
