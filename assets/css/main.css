@@ -3408,6 +3408,7 @@ textarea.form-control {
     box-shadow: none;
 }
 
+
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 140%;
@@ -3440,6 +3441,15 @@ textarea.form-control {
     margin-bottom: 30px;
 }
 
+.modal-dept .modal-content img {
+    padding-bottom: 10px;
+}
+
+
+.close {
+    margin-left: 98%;
+    cursor: pointer
+}
 
 .close-modal {
     position: absolute;
@@ -3454,6 +3464,8 @@ textarea.form-control {
 .close-modal:hover {
     opacity: .3;
 }
+
+
 
 
 .close-modal .lr {
@@ -3545,6 +3557,10 @@ textarea.form-control {
     cursor: pointer
 }
 
+.member-row {
+    margin-top: -5%
+}
+
 #member_column span {
     display: inline-block;
     vertical-align: middle;
@@ -3616,7 +3632,13 @@ textarea.form-control {
     }
 }
 
+.description {
+    margin-bottom: 5%;
+}
 
+.modal-dept .title {
+    font-size: 2rem
+}
 
 .is-approved {
     border: 0.5rem solid darkcyan;
