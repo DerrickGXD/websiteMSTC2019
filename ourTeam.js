@@ -297,31 +297,31 @@ $(document).ready(function () {
 
         {
             Department: "Executive Coordinator",
-            Job_Description: "Leads the organizing team, provides guidance to the departments and acts as spokesperson for MSTC. Provides direction and ensures success of the event."
+            Job_Description: "Leads the organizing team, provides guidance to the departments and acts as spokesperson for MSTC. Provides direction and ensures success of the event. Also acts as the liaison of the MSTC team and YME executive team."
         },
         {
             Department: "Deputy Executive Coordinator",
-            Job_Description: "Assist Executive Coordinator and work with HODs. Acts as EC when away and chairs Department meetings."
+            Job_Description: "Assist Executive Coordinator and work collaboratively with HODs. Acts as the Executive Coordinator when they are away. Chair Departments' meetings and liaison between Officer and HODs. "
         },
         {
             Department: "Head of Department",
-            Job_Description: "Manages operations of their respective departments and work closely with coordinators."
+            Job_Description: "Manages operations of their respective departments. There are 2 HODs in each department who work closely with coordinators to ensure the event runs smoothly."
         },
         {
             Department: "Officer",
-            Job_Description: "Works closely with HODs in their respective departments, performing specific, department-related tasks."
+            Job_Description: "Works closely with HODs in their respective departments, performing specific, department-related tasks. Requires high level of technical and communication skills."
         },
         {
             Department: "Operations and Logistics",
-            Job_Description: "Handles the acquisition and management of logistical items such as venue,food and event protocol. Also in charge of securing speakers, security and flow of event."
+            Job_Description: "Handles the acquisition and management of logistical items such as venue,food and event protocol. Also in charge of securing speakers, security and flow of event. As such, they help to ensure the participants get the best experience possible."
         },
         {
             Department: "Finance and Sponsorship",
-            Job_Description: "Drafts budget and sponsorship packages. Manages bank account and oversees cash flow for the event."
+            Job_Description: "Drafts budget and sponsorship packages. Determines budget for the conference and supplementary events. Manages bank account and oversees cash flow for the event. Works hard to secure sponsors, maintain good relationship with donors and ensures sponsors needs are met. "
         },
         {
             Department: "Media and Marketing",
-            Job_Description: "In charge of creating promotional content, such as social media posts, posters, videos, webpage and so on."
+            Job_Description: "In charge of creating promotional content, such as social media posts, posters, videos, webpage and so on. Also responsible for providing creative solutions for other departments. This department is crucial to ensure MSTC is well known to the public."
         }
 
     ]
