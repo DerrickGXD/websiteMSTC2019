@@ -61,7 +61,7 @@ var MSTCMembers = [
         Image: "suhasan_mstc.png"
         },
     {
-        Name: "Kenrick",
+        Name: "Kenrick Tan",
         University: "University of Manchester",
         Course: "Unknown",
         Department: "Executive",
@@ -151,7 +151,7 @@ var MSTCMembers = [
         Image: "unknown.jpg"
         },
     {
-        Name: "Ivan",
+        Name: "Ivan Chong",
         University: "University of Manchester",
         Course: "Unknown",
         Department: "Finance and Sponsorship",
@@ -251,7 +251,7 @@ var MSTCMembers = [
         Image: "unknown.jpg"
         },
     {
-        Name: "Zul",
+        Name: "Zulhanais",
         University: "Unknown",
         Course: "Unknown",
         Department: "Media and Marketing",
@@ -301,7 +301,7 @@ var MSTCMembers = [
         Image: "sangavi_mstc.jpg"
         },
     {
-        Name: "Farhana",
+        Name: "Farhana Rosol",
         University: "Unknown",
         Course: "Unknown",
         Department: "Human Resources",
