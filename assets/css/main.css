@@ -3566,11 +3566,13 @@ textarea.form-control {
     vertical-align: middle;
     line-height: normal;
     color: black;
-    font-size: 1.0rem
+    font-size: 1.0rem;
+
 }
 
 .stamp {
     color: #555;
+    background-color: lightcyan;
     font-size: 3rem;
     font-weight: 700;
     border: 0.25rem solid #555;
@@ -3584,11 +3586,33 @@ textarea.form-control {
     -webkit-mask-size: 944px 604px;
     mix-blend-mode: multiply;
     animation-name: fadeInBlur;
-    -webkit-animation-duration: 7s;
-    animation-duration: 7s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
     -webkit-animation-name: fadeInBlur;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+.MSTC_fade {}
+
+.modal {
+    overflow-y: auto;
+}
+
+@keyframes charAnim {
+
+    /* ADJUST THESE VALUES FOR FADE CONTROL */
+    0% {
+        opacity: 0;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
 }
 
 
@@ -3606,7 +3630,7 @@ textarea.form-control {
 
     }
 
-    100% {
+    90% {
         opacity: 1;
         transform: rotate(-20deg) scale(1);
     }
@@ -3634,6 +3658,7 @@ textarea.form-control {
 
 .description {
     margin-bottom: 5%;
+    margin-top: -3%
 }
 
 .modal-dept .title {

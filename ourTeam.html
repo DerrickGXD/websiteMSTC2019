@@ -24,7 +24,7 @@
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"></script>
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -80,7 +80,7 @@
                 <div class="col-12">
                     <div class="inner_cover_content">
                         <h3>
-                            THE TEAM
+                            OUR TEAM
                         </h3>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">This Video DOES NOT Include All MSTC HODs and Accurate Job Scopes!</h5>
+                    <h5 style="position: absolute">This Video DOES NOT Include All HODs and Accurate Job Scopes!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -130,7 +130,6 @@
 
                             <div class="in-row">
                                 <img class="btn-circle" src="assets/img/team/suhasan_head.png" id="suhasan">
-
                                 <p>Suhasan Kana<br>Executive Officer</p>
                             </div>
 
@@ -207,7 +206,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
                     <p>
-                        With over 50 students from various universities and courses, our diverse and enthusiastic team of organisers have worked tirelessly to ensure this event becomes a success.
+                        With 30 students from various universities and courses, our diverse and enthusiastic team of organisers have worked tirelessly to ensure this event becomes a success.
                     </p>
                 </div>
 
@@ -218,10 +217,10 @@
     <!--about section end -->
 
     <!--    department section-->
-    <section class="pb100" id="section_team">
+    <section class="pb100" id="section_team" style="margin-top: -3%">
         <div class="row justify-content-md-center">
             <div class="col">
-                <div class="speaker_box" data-toggle="modal" data-target="#advisorModal">
+                <div class="speaker_box" data-toggle="modal" data-target="#advisorModal" onclick="setModalType(0)">
                     <div class="speaker_img" style="background-image: linear-gradient(aqua,teal);border-radius: 5%">
                         <img src="assets/img/team/advisor_icon.png" alt="speaker name">
                         <span class="glyphicon glyphicon-check fa-2x"></span>
@@ -234,7 +233,7 @@
                 </div>
 
             </div>
-            <div class="col" data-toggle="modal" data-target="#executiveModal">
+            <div class="col" data-toggle="modal" data-target="#executiveModal" onclick="setModalType(1)">
                 <div class="speaker_box">
                     <div class="speaker_img" style="background-image: linear-gradient(aqua,teal);border-radius: 5%">
                         <img src="assets/img/team/executive_icon.png" alt="speaker name">
@@ -246,7 +245,7 @@
 
                 </div>
             </div>
-            <div class="col" data-toggle="modal" data-target="#logisticsModal">
+            <div class="col" data-toggle="modal" data-target="#logisticsModal" onclick="setModalType(2)">
                 <div class="speaker_box">
                     <div class="speaker_img" style="background-image: linear-gradient(aqua,teal);border-radius: 5%">
                         <img src="assets/img/team/logistic_icon.png" alt="speaker name">
@@ -262,7 +261,7 @@
 
         <div class="row justify-content-md-center" style="margin-top: 2%">
             <div class="col">
-                <div class="speaker_box" data-toggle="modal" data-target="#financeModal">
+                <div class="speaker_box" data-toggle="modal" data-target="#financeModal" onclick="setModalType(3)">
                     <div class="speaker_img" style="background-image: linear-gradient(aqua,teal);border-radius: 5%">
                         <img src="assets/img/team/finance_icon.png" alt="speaker name">
                         <div class="info_box">
@@ -274,7 +273,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="speaker_box" data-toggle="modal" data-target="#mediaModal">
+                <div class="speaker_box" data-toggle="modal" data-target="#mediaModal" onclick="setModalType(4)">
                     <div class="speaker_img" style="background-image: linear-gradient(aqua,teal);border-radius: 5%">
                         <img src="assets/img/team/media_icon.png" alt="speaker name">
                         <div class="info_box">
@@ -286,7 +285,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="speaker_box" data-toggle="modal" data-target="#hrModal">
+                <div class="speaker_box" data-toggle="modal" data-target="#hrModal" onclick="setModalType(5)">
                     <div class="speaker_img" style="background-image: linear-gradient(aqua,teal);border-radius: 5%">
                         <img src="assets/img/team/hr_icon.png" alt="speaker name">
                         <div class="info_box">
@@ -333,7 +332,7 @@
 
                     <div class="row">
                         <div class="col-sm" style="text-align: center">
-                            <div class="in-row-member member-col">
+                            <div class="in-row-member member-col" data-toggle="modal" data-target="#memberModal" onClick="setModal(0)">
                                 <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="zc">
                                 <p>Zhi Chao</p>
                             </div>
@@ -342,7 +341,7 @@
 
                         <div class="col-sm" style="text-align: center">
                             <div class="in-row-member member-col">
-                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="azrai">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="azrai" data-toggle="modal" data-target="#memberModal" onClick="setModal(1)">
                                 <p>Azrai</p>
                             </div>
 
@@ -354,7 +353,7 @@
                     <div class="row">
                         <div class="col-sm member-col" style="text-align: center">
                             <div class="in-row-member member-col">
-                                <img class="btn-circle-member" src="assets/img/team/jaselyn_head.png" id="jaselyn">
+                                <img class="btn-circle-member" src="assets/img/team/jaselyn_head.png" id="jaselyn" data-toggle="modal" data-target="#memberModal" onClick="setModal(2)">
                                 <p>Jaselyn</p>
                             </div>
 
@@ -362,13 +361,16 @@
 
                         <div class="col-sm member-col" style="text-align: center">
                             <div class="in-row-member member-col">
-                                <img class="btn-circle-member" src="assets/img/team/cs_head.png" id="cs">
+                                <img class="btn-circle-member" src="assets/img/team/cs_head.png" id="cs" data-toggle="modal" data-target="#memberModal" onClick="setModal(3)">
                                 <p>Cha Sheng</p>
                             </div>
 
                         </div>
                     </div>
 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -382,595 +384,618 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="container">
-                    <div class="modal-body">
-                        <div class="section_title">
-                            <h3 class="title">
-                                Executive
-                            </h3>
-                        </div>
+                <div class="modal-body">
+                    <div class="section_title">
+                        <h3 class="title">
+                            Executive
+                        </h3>
+                    </div>
 
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-10" style="text-align: center">
-                                <p class="description">
-                                    The Executive Coordinator leads the organizing team, provides guidance to the departments and acts as spokesperson for MSTC. The Deputy Executive Coordinators assist the executive coordinator and work collaboratively with HODs and chair departments' meetings and liaison between Officer and HODs.
-                                </p>
-                                <p></p>
-                            </div>
-
-                        </div>
-
-                        <div class="section_title">
-                            <h3 class="title">
-                                Executive Coordinator
-                            </h3>
-                        </div>
-
-                        <div class="row member-row">
-                            <div class="col-sm" style="text-align: center">
-                                <div class="in-row-member member-col">
-                                    <img class="btn-circle-member" src="assets/img/team/suhasan_head.png" id="suhasan" style="width: 40%; height:auto">
-                                    <p>Suhasan Kanagasabapathy</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section_title">
-                            <h3 class="title">
-                                Deputy Executive Coordinator
-                            </h3>
-                        </div>
-
-                        <div class="row member-row">
-                            <div class="col-sm" style="text-align: center">
-                                <div class="in-row-member member-col">
-                                    <img class="btn-circle-member" src="assets/img/team/kenrick_head.png" id="kenrick" style="width: 40%; height:auto">
-                                    <p>Kenrick Tan</p>
-                                </div>
-
-                            </div>
-
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10" style="text-align: center">
+                            <p class="description">
+                                The Executive Coordinator leads the organizing team, provides guidance to the departments and acts as spokesperson for MSTC. The Deputy Executive Coordinators assist the executive coordinator and work collaboratively with HODs and chair departments' meetings and liaison between Officer and HODs.
+                            </p>
+                            <p></p>
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="section_title">
+                        <h3 class="title">
+                            Executive Coordinator
+                        </h3>
+                    </div>
 
-
-
-            </div>
-        </div>
-
-
-        <div class="modal fade" id="logisticsModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="section_title">
-                            <h3 class="title">
-                                Operation and Logistics
-                            </h3>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6">
-                                <p class="">
-                                    Describe what is about this department.
-                                </p>
-                                <p></p>
-                            </div>
-
-                        </div>
-                        <div class="section_title">
-                            <h3 class="title">
-                                Head of Department
-                            </h3>
-                        </div>
-
+                    <div class="row member-row">
                         <div class="col-sm" style="text-align: center">
-                            <div class="in-row-member">
-                                <img class="btn-circle-member" src="assets/img/team/suhasan_head.png" id="kenrick">
-                                <p>Iyliana</p>
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/suhasan_head.png" id="suhasan" style="width: 40%; height:auto" data-toggle="modal" data-target="#memberModal" onClick="setModal(4)">
+                                <p>Suhasan Kanagasabapathy</p>
                             </div>
-
-
-
-
                         </div>
+                    </div>
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Deputy Executive Coordinator
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
                         <div class="col-sm" style="text-align: center">
-                            <div class="in-row-member">
-                                <img class="btn-circle-member" src="assets/img/team/zq_head.png" id="kenrick">
-                                <p>Zhang Quan</p>
-                            </div>
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="financeModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="section_title">
-                            <h3 class="title">
-                                Finance and Sponsorship
-                            </h3>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6">
-                                <p class="">
-                                    Describe what is about this department.
-                                </p>
-                                <p></p>
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/kenrick_head.png" id="kenrick" data-toggle="modal" data-target="#memberModal" onClick="setModal(5)">
+                                <p>Kenrick Tan</p>
                             </div>
 
                         </div>
 
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="modal fade" id="mediaModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="section_title">
-                            <h3 class="title">
-                                Media and Marketing
-                            </h3>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6">
-                                <p class="">
-                                    Describe what is about this department.
-                                </p>
-                                <p></p>
+                    <div class="row member-row">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="imran" data-toggle="modal" data-target="#memberModal" onClick="setModal(6)">
+                                <p>Imran</p>
                             </div>
 
                         </div>
 
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="modal fade" id="hrModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="section_title">
-                            <h3 class="title">
-                                Human Resources
-                            </h3>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6">
-                                <p>
-                                    Describe what is about this department.
-                                </p>
-                                <p></p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!--speaker section-->
-        <!--
-    <section class="pb100">
-        <div class="row justify-content-center no-gutters">
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s1.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Patricia Stone</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s2.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">James Oliver</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
 
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s3.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Carla Banks</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s4.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">William Smith</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s5.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Jessica Black</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s6.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Patricia Stone</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s7.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Duncan Stan</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s8.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Patricia Stone</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                    <div class="speaker_social">
-                        <p>
-                            Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-        <!--speaker section end -->
 
-
-
-        <!--get tickets section -->
-        <!--
-        <section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
-            <div class="container">
-                <div class="section_title mb30">
-                    <h3 class="title color-light">
-                        Register now!!
-                    </h3>
-                </div>
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-9 text-md-left text-center color-light">
-                        What are you waiting for?! Sign up now to get the experience of your life!
-                    </div>
-                    <div class="col-md-3 text-md-right text-center">
-                        <a href="#" class="btn btn-primary btn-rounded mt30">Register Now</a>
-                    </div>
-                </div>
-            </div>
-        </section>
--->
-        <!--get tickets section end-->
-
-
-        <!--footer start -->
-        <footer>
-            <!--
-            <div class="container">
-                <div class="row justify-content-center">
-
-                    <div class="col-md-4 col-12">
-                        <div class="footer_box">
-                            <div class="footer_header">
-                                <div class="footer_logo">
-                                    <img src="assets/img/logo.png" alt="evento">
-                                </div>
-                            </div>
-                            <div class="footer_box_body">
-
-                                <ul class="footer_social">
-
-                                    <li>
-                                        <a href="#"><i class="ion-social-facebook"></i></a>
-                                    </li>
-
-
-                                    <li>
-                                        <a href="#"><i class="ion-social-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-4">
-                        <div class="footer_box">
-                            <div class="footer_header">
-                                <h4 class="footer_title">
-                                    Posters
-                                </h4>
-                            </div>
-                            <div class="footer_box_body">
-                                <ul class="instagram_list">
-                                    <li>
-                                        <a href="#">
-                                            <img src="assets/img/cleander/c1.png" alt="instagram">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="assets/img/cleander/c2.png" alt="instagram">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="assets/img/cleander/c3.png" alt="instagram">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="assets/img/cleander/c3.png" alt="instagram">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="assets/img/cleander/c2.png" alt="instagram">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="assets/img/cleander/c1.png" alt="instagram">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
--->
-
-            <!--
-<div class="col-12 col-md-4">
-    <div class="footer_box">
-        <div class="footer_header">
-            <h4 class="footer_title">
-                Contact us here
-            </h4>
-        </div>
-        <div class="footer_box_body">
-            <div class="newsletter_form">
-                <input type="email" class="form-control" placeholder="E-Mail">
-                <input type="text" class="form-control" placeholder="Enquiries">
-                <button class="btn btn-rounded btn-block btn-primary">SEND</button>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-</footer>
--->
-            <div class="copyright_footer" style="z-index: -10">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-                        <div class="col-md-6 col-12">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>
-                                    document.write(new Date().getFullYear());
 
-                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+    <div class="modal fade modal-dept" id="logisticsModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section_title">
+                        <h3 class="title">
+                            Operation and Logistics
+                        </h3>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10" style="text-align: center">
+                            <p class="description">
+                                Operation and Logistic department handles the acquisition and management of logistical items such as venue,food and event protocol. Also in charge of securing speakers, security and flow of event. As such, they help to ensure the participants get the best experience possible.
                             </p>
+                            <p></p>
                         </div>
 
                     </div>
+                    <div class="section_title">
+                        <h3 class="title">
+                            Head of Department
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/ih_head.png" id="ih" data-toggle="modal" data-target="#memberModal" onClick="setModal(7)">
+                                <p>Iyliana</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/zq_head.png" id="zq" data-toggle="modal" data-target="#memberModal" onClick="setModal(8)">
+                                <p>Zhang Quan</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Officers
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
+
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="shujaak" data-toggle="modal" data-target="#memberModal" onClick="setModal(9)">
+                                <p>Shu Jaak Ooi</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/yeo_head.png" id="weihung" data-toggle="modal" data-target="#memberModal" onClick="setModal(10)">
+                                <p>Yeo Wei Hung</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row member-row" style="margin-top: -2%; position: relative; padding-bottom: 10px">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="weiyang" data-toggle="modal" data-target="#memberModal" onClick="setModal(11)">
+                                <p>Wei Yang Lee</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="adam" data-toggle="modal" data-target="#memberModal" onClick="setModal(12)">
+                                <p>Adam Muqhriz</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="chunyin" data-toggle="modal" data-target="#memberModal" onClick="setModal(13)">
+                                <p>Leong Chun Yin</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
-            <!--footer end -->
+        </div>
+    </div>
+
+    <div class="modal fade modal-dept" id="financeModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section_title">
+                        <h3 class="title">
+                            Finance and Sponsorship
+                        </h3>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10" style="text-align: center">
+                            <p class="description">
+                                Finance and Sponsorship department drafts budget and sponsorship packages. They determine budget for the conference and oversees cash flow for the event. Also, they work hard to secure sponsors, maintain good relationship with donors and ensure sponsors needs are met.
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Head of Department
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/ivan_head.png" id="ivan" data-toggle="modal" data-target="#memberModal" onClick="setModal(14)">
+                                <p>Ivan Chong</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/wh_head.png" id="wh" data-toggle="modal" data-target="#memberModal" onClick="setModal(15)">
+                                <p>Wei Hao</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Officers
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
+
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/zy_head.png" id="zy" data-toggle="modal" data-target="#memberModal" onClick="setModal(16)">
+                                <p>Zhen-Yen Chan</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="bryan" data-toggle="modal" data-target="#memberModal" onClick="setModal(17)">
+                                <p>Bryan Wong</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row member-row" style="margin-top: -2%; position: relative; padding-bottom: 10px">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="rabiatul" data-toggle="modal" data-target="#memberModal" onClick="setModal(18)">
+                                <p>Rabiatul Adawiyah</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="ikram" data-toggle="modal" data-target="#memberModal" onClick="setModal(19)">
+                                <p>Muhammad Ikram</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="hoyen" data-toggle="modal" data-target="#memberModal" onClick="setModal(20)">
+                                <p>Toh Ho Yen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
 
 
-            <!-- jquery -->
-            <script src="assets/js/jquery.min.js"></script>
-            <!-- bootstrap -->
-            <script src="assets/js/popper.js"></script>
-            <script src="assets/js/bootstrap.min.js"></script>
-            <script src="assets/js/waypoints.min.js"></script>
-            <!--slick carousel -->
-            <script src="assets/js/owl.carousel.min.js"></script>
-            <!--parallax -->
-            <script src="assets/js/parallax.min.js"></script>
-            <!--Counter up -->
-            <script src="assets/js/jquery.counterup.min.js"></script>
-            <!--Counter down -->
-            <script src="assets/js/jquery.countdown.min.js"></script>
-            <!-- WOW JS -->
-            <script src="assets/js/wow.min.js"></script>
-            <!-- Custom js -->
-            <script src="assets/js/main.js"></script>
-            <script src="ourTeam.js"></script>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-dept" id="mediaModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section_title">
+                        <h3 class="title">
+                            Media and Marketing
+                        </h3>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10" style="text-align: center">
+                            <p class="description">
+                                Media and Marketing department is in charge of creating promotional content, such as social media posts, posters, videos, webpage and so on. Also responsible for providing creative solutions for other departments. This department is crucial to ensure MSTC is well known to the public.
+                            </p>
+                            <p></p>
+                        </div>
+
+                    </div>
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Head of Department
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/derrick_head.png" id="derrick" data-toggle="modal" data-target="#memberModal" onClick="setModal(21)">
+                                <p>Derrick Goh</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/sherree_head.png" id="sherree" data-toggle="modal" data-target="#memberModal" onClick="setModal(22)">
+                                <p>Sher Ree</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Officers
+                        </h3>
+                    </div>
+
+                    <div class="row member-row">
+
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="yunhong" data-toggle="modal" data-target="#memberModal" onClick="setModal(23)">
+                                <p>Yun Hong Yong</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="zul" data-toggle="modal" data-target="#memberModal" onClick="setModal(24)">
+                                <p>Zulhanais</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="jenn" data-toggle="modal" data-target="#memberModal" onClick="setModal(25)">
+                                <p>Jenn Tan</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row member-row" style="margin-top: 0%; position: relative; padding-bottom: 10px">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/unknown.jpg" id="jared" data-toggle="modal" data-target="#memberModal" onClick="setModal(26)">
+                                <p>Jared Wong</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/yeexin_head.jpg" id="yeexin" data-toggle="modal" data-target="#memberModal" onClick="setModal(27)">
+                                <p>Yee Xin</p>
+                            </div>
+                        </div>
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col" style="width: 50%; height:auto">
+                                <img class="btn-circle-member" src="assets/img/team/sangavi_head.png" id="sanggavi" data-toggle="modal" data-target="#memberModal" onClick="setModal(28)">
+                                <p>Sanggavi Ganesan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-dept" id="hrModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section_title">
+                        <h3 class="title">
+                            Human Resources
+                        </h3>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10" style="text-align: center">
+                            <p class="description">
+                                Human Resources department is in charge of the administrative process of the team, including recording meetings and department progress. This department will work to ensure all formal communication with participants and sponsors well-documented, while handling main queries regarding the event and be the point of contact for the coordinators.
+                            </p>
+                            <p></p>
+                        </div>
+
+                    </div>
+
+                    <div class="section_title">
+                        <h3 class="title">
+                            Head of Department
+                        </h3>
+                    </div>
+
+
+                    <div class="row member-row" style="padding-bottom: 10px">
+                        <div class="col-sm" style="text-align: center">
+                            <div class="in-row-member member-col">
+                                <img class="btn-circle-member" src="assets/img/team/farhana_head.png" id="farhana" style="width: 40%; height:auto" data-toggle="modal" data-target="#memberModal" onClick="setModal(29)">
+                                <p>Farhana Rosol</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="pt100 pb100" style="margin-top: -10%">
+        <div class="container">
+            <div class="section_title">
+                <h3 class="title">
+                    Diversity in Team
+                </h3>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <p>
+                        Our team loves diversity and accepts individual members from different background. With 30 members from various education and functional backgrounds, we together unlock the value of diversity in team, which improves our team performance and team satisfaction.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="container" style="margin-top: 5%">
+                <div class=row>
+                    <div class="col">
+                        <h4 class="mb-3">Departments</h4>
+                        <canvas id="pieChart" class="chartjs-render-monitor"></canvas>
+                    </div>
+
+                    <div class="col">
+                        <h4 class="mb-3">Ethnics</h4>
+                        <canvas id="pieChart2" class="chartjs-render-monitor"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin-top: 5%">
+                <div class=row>
+                    <div class="col">
+                        <h4 class="mb-3">Courses</h4>
+                        <canvas id="pieChart3" class="chartjs-render-monitor"></canvas>
+                    </div>
+
+                    <div class="col">
+                        <h4 class="mb-3">University Based</h4>
+                        <canvas id="pieChart4" class="chartjs-render-monitor"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin-top: 5%">
+                <div class=row>
+                    <div class="col">
+                        <h4 class="mb-3">Gender</h4>
+                        <canvas id="pieChart5" class="chartjs-render-monitor"></canvas>
+                    </div>
+
+                    <div class="col">
+                        <h4 class="mb-3">YME-BODs Participation</h4>
+                        <canvas id="pieChart6" class="chartjs-render-monitor"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin-top: 5%">
+
+
+                <div class="col">
+                    <h4 class="mb-3">YME Members</h4>
+                    <canvas id="pieChart7" class="chartjs-render-monitor"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--popup member-->
+    <div class="modal fade modal-dept" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="selectionModalLabel" aria-hidden="true">
+        <div class="animated fadeIn">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content" style="margin-top: -2%">
+                    <div class="modal-body" style="display: table">
+                        <div class="section_title">
+
+                            <h3 class="title" id="memberName">
+
+                            </h3>
+                            <div class="row" style="margin-top: -2%">
+
+                                <div class="col">
+                                    <div style="text-align: center; vertical-align: middle">
+                                        <h4>Department</h4>
+                                        <h4 id="department_name" style="color:gray"></h4>
+                                    </div>
+                                </div>
+                                <div class="col" style="text-align: center; vertical-align: middle;">
+                                    <div style="text-align: center; vertical-align: middle">
+                                        <h4>Title</h4>
+                                        <h4 id="title_name" style="color:gray"></h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <img id="member_img">
+                            </div>
+                            <div class="col" style="text-align: center" id="member_column">
+                                <span id="description_name">
+
+                                </span>
+
+                                <div class="row" style="margin-top: 15%">
+                                    <div class="col">
+                                        <img class="MSTC_fade" src="assets/img/logo.png" style="z-index: -1" alt="Evento" />
+                                    </div>
+                                    <div class="col">
+                                        <span style="font-size: 1.5rem; color:darkcyan" class="stamp is-approved">Approved</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="modalBack()">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--popup member ends-->
+
+    <footer>
+
+        <div class="copyright_footer" style="z-index: -10">
+            <div class="container">
+                <div class="row justify-content-center">
+                    Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                    <div class="col-md-6 col-12">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--footer end -->
+    </footer>
+
+
+
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <!--slick carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--parallax -->
+    <script src="assets/js/parallax.min.js"></script>
+    <!--Counter up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--Counter down -->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!-- WOW JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/main.js"></script>
+    <script src="ourTeam.js"></script>
 </body>
 
 </html>
