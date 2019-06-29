@@ -3,14 +3,12 @@ html{
     -ms-text-size-adjust: 100%;
     height: 100%;
     margin: 0;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
 }
 body{
-    background: #c1c1c1;
-    background: -webkit-linear-gradient(#c1c1c1, white, #c1c1c1);
-    background: -o-linear-gradient(#c1c1c1, white, #c1c1c1);
-    background: -moz-linear-gradient(#c1c1c1, white, #c1c1c1);
-    background: linear-gradient(#c1c1c1, white, #c1c1c1);
+    background: url('assets/img/bg/hangmanbg.png');
+    
 }
 a{
     color: #b10000;
@@ -34,6 +32,7 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
     bottom: 0;
     left: 0;
     margin: auto;
+    color: white;
 }
 #introPage{
     display: block;
@@ -44,11 +43,13 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
         width: 850px;
         height: 260px;
         margin: 10px auto;
+        color: white;
     }
     #introText p, #multiText p{
         font-size: 40px;
         text-align: center;
         margin: 0 auto 20px auto;
+        color: white;
     }
     #buttonContainer{
         width: 700px;
@@ -163,14 +164,14 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
         font-size: 29px;
     }
     #input{
-        font-family: sans-serif;
+        font-family: 'Alegreya Sans SC', sans-serif;
         display: block;
         margin: 0px auto;
         padding: 10px;
         font-size: 25px;
     }
     #restriction{
-        font-family: sans-serif;
+        font-family: 'Alegreya Sans SC', sans-serif;
         float: right;
         position: relative;
         right: 175px;
@@ -215,7 +216,7 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
         padding: 10px;
     }
     #letter1, #letter2, #letter3, #letter4, #letter5, #letter6, #letter7, #letter8, #letter9, #letter10, #letter11, #letter12, #letter13, #letter14, #letter15, #letter16, #letter17, #letter18, #letter19, #letter20, #letter21, #letter22, #letter23, #letter24, #letter25, #letter26, #letter27, #letter28, #letter29, #letter30, #letter31, #letter32, #letter33, #letter34, #letter35, #letter36, #letter37, #letter38, #letter39, #letter40, #letter41, #letter42, #letter43, #letter44, #letter45, #letter46, #letter47, #letter48, #letter49, #letter50, #letter51, #letter52, #letter53, #letter54, #letter55, #letter56, #letter57, #letter58, #letter59, #letter60, #letter61, #letter62, #letter63, #letter64, #letter65, #letter66, #letter67, #letter68, #letter69, #letter70, #letter71, #letter72, #letter73, #letter74, #letter75, #letter76, #letter77, #letter78, #letter79, #letter80, #letter81, #letter82, #letter83, #letter84, #letter85, #letter86, #letter87, #letter88, #letter89, #letter90, #letter91, #letter92, #letter93, #letter94, #letter95, #letter96, #letter97, #letter98, #letter99, #letter100{
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Alegreya Sans SC', sans-serif;
         width: 50px;
         height: 60px;
         margin-bottom: 40px;
