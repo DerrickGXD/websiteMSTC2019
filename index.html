@@ -27,6 +27,7 @@ title: MSTC2019 Paradigm
     <!-- Carousel CSS -->
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- Custom styles for this template -->
@@ -37,672 +38,706 @@ title: MSTC2019 Paradigm
 </head>
 
 <body>
+
     <div class="loader">
         <div class="loader-outter"></div>
         <div class="loader-inner"></div>
     </div>
 
-    <!--header start here -->
-    <header class="header navbar fixed-top navbar-expand-md">
-        <div class="container">
-            <a class="navbar-brand logo" href="#">
-                <img src="assets/img/logo.png" alt="Evento" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="lnr lnr-text-align-right"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
-                <ul class=" nav navbar-nav menu">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#speaker">Speakers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#moreinfo">More info</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#sponsors">Sponsors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="ourTeam.html">Our Team</a>
-                    </li>
-
-
-                </ul>
+    <div class="button-container">
+        <div class="close-modal" id="close_splash" onclick="closeSplash()">
+            <div class="lr">
+                <div class="rl">
+                </div>
             </div>
         </div>
-    </header>
-    <!--header end here-->
+        <h2 class="frame-6" data-text="WATCH MSTC 2019 PREVIEW HERE">Watch Our MSTC 2019 Preview Here</h2>
+        <a class="sp-circle-link-start" onclick="startSplash()">START</a>
+    </div>
 
-    <!--cover section slider -->
-    <section id="home" class="home-cover">
-        <div class="cover_slider owl-carousel owl-theme">
-            <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
-                <div class="slider_content">
-                    <div class="slider-content-inner">
-                        <div class="container">
-                            <div class="slider-content-center">
-                                <h2 class="cover-title">
-                                    MSTC 2019
-                                </h2>
-                                <strong class="cover-xl-text">PARADIGM</strong>
-                                <p class="cover-date">
-                                    17 August 2019 - Mercu UEM, KL.
+    <!--
+<div class="sp-container" id="splash_container">
+    <div class="sp-content">
+        <div class="sp-globe"></div>
+        <h2 class="frame-1" data-text="THIS AUTUMN">THIS AUTUMN</h2>
+        <h2 class="frame-2" data-text="17 AUGUST 2019">17 AUGUST 2019</h2>
+        <h2 class="frame-3" data-text="TOP GLOVE GRAND BALLROOM">TOP GLOVE GRAND BALLROOM</h2>
+        <h2 class="frame-4" data-text="WE'RE BACK">WE'RE BACK</h2>
+        <h2 class="frame-5">
+            <span>MSTC</span>
+            <span>2019<br></span>
+            <span>PARADIGM</span>
+        </h2>
+
+        <a class="sp-circle-link" onclick="closeSplash()">GO</a>
+    </div>
+</div>
+-->
+
+    <div class="next-container" style="display: none">
+
+        <!--header start here -->
+        <header class="header navbar fixed-top navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">
+                    <img src="assets/img/logo.png" alt="Evento" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="lnr lnr-text-align-right"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+                    <ul class=" nav navbar-nav menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#speaker">Speakers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#moreinfo">More info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#sponsors">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="ourTeam.html">Our Team</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--header end here-->
+
+        <!--cover section slider -->
+        <section id="home" class="home-cover">
+            <div class="cover_slider owl-carousel owl-theme">
+                <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+                    <div class="slider_content">
+                        <div class="slider-content-inner">
+                            <div class="container">
+                                <div class="slider-content-center">
+                                    <h2 class="cover-title">
+                                        MSTC 2019
+                                    </h2>
+                                    <strong class="cover-xl-text">PARADIGM</strong>
+                                    <p class="cover-date">
+                                        17 August 2019 - Mercu UEM, KL.
+                                    </p>
+                                    <a href="#" class=" btn btn-primary btn-rounded">
+                                        Register Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!--cover section slider end -->
+
+        <!--event info -->
+        <section class="pt20 pb40">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3  ">
+                        <div class="icon_box_two">
+                            <i class="ion-ios-calendar-outline"></i>
+                            <div class="content">
+                                <h5 class="box_title">
+                                    DATE
+                                </h5>
+                                <p>
+                                    17 August 2019
                                 </p>
-                                <a href="#" class=" btn btn-primary btn-rounded">
-                                    Register Now
-                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-
-        </div>
-
-    </section>
-    <!--cover section slider end -->
-
-    <!--event info -->
-    <section class="pt20 pb40">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-calendar-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                DATE
-                            </h5>
-                            <p>
-                                17 August 2019
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-location-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                location
-                            </h5>
-                            <p>
-                                Mercu UEM, KL.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-person-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                speakers
-                            </h5>
-                            <p>
-                                Dr Hau, Wyhow, Pedro, Fong Tuan + more
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!--event info end -->
-
-
-    <!--event countdown -->
-    <section class="bg-img pt20 pb20" style="background-image: url('assets/img/bg/bg2.jpg');">
-        <div class="overlay_dark"></div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <h4 class="mb5 text-center color-light">COUNTDOWN UNTIL THE BIG EVENT</h4>
-                    <div class="countdown"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <p id="about"></p>
-    <!--event count down end-->
-
-
-    <!--about the event -->
-    <section class="pt45 pb60">
-        <div class="container">
-
-            <div class="section_title">
-                <h3 class="title">
-                    About the event
-                </h3>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
-                    <p>
-                        The Malaysian Students’ Technology Conference (MSTC) is the first initiative spearheaded by Malaysian students studying in the UK that serves as a platform for topics that are relevant to STEM (Science, Technology, Engineering and Mathematics) students.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>
-                        Under the banner of Young Malaysian Engineers (YME) the conference will cover a wide range of topics within the scope of entrepreneurship, social, environment and corporate. Not only will the participants get to have better insights on the local challenges faced in Malaysia, they will also have the opportunity to network with people from the industry.
-                </div>
-
-            </div>
-
-            <div class="section_title">
-                <h3 class="title">
-                    About YME
-                </h3>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6" style="text-align: center">
-                    <img src="assets/img/speakers/yme_logo.png" style="max-width: 40%; display: inline-block" alt="speaker name">
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>
-                        Young Malaysian Engineers (YME) is a United Kingdom-based student organization built to empower Malaysian youth in the fields of Science, Technology, Engineering, and Maths (STEM). Founded in 2016, YME is one of the fastest-growing, STEM-oriented student bodies with 200+ registered members and a combined 2000+ followers on all social media platforms.
-                    </p>
-
-                    <div class="price_footer" style="text-align: center; margin-top: 5%">
-                        <a href="http://ymeglobal.org/" class="btn btn-primary btn-rounded" style="margin-right: 10px">Our Website</a>
-                        <a href="https://docs.google.com/forms/d/1jR1g4cuOb2MPrKZD9GoMQczXRsXPHuhB6JXoZp9Q2VU/prefill?fbclid=IwAR3Zy6lH2mHgcg8VXjINI8TC0ouX3R8fgGzIuFdi2d_p698UWzCjmP-CTTA" class="btn btn-primary btn-rounded" style="margin-left: 10px"> Join Us </a>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-
-        </div>
-        <p id="speaker"></p>
-    </section>
-
-    <!--about the event end -->
-
-
-    <!--speaker section-->
-
-    <section class="pb60">
-        <div class="container">
-            <div class="section_title mb50">
-                <h3 class="title">
-                    our speakers
-                </h3>
-            </div>
-        </div>
-        <div class="row justify-content-center no-gutters">
-            <div class="col-md-3 col-sm-6">
-                <a class="speakers-link" data-toggle="modal" data-target="#DrJasmine">
-                    <div class="speaker_box">
-                        <div class="speaker_img">
-                            <img src="assets/img/speakers/drjasminehau.jpg" alt="speaker name">
-                            <div class="info_box">
-                                <h5 class="name">Dr. Jasmine Hau Yuan Wen</h5>
-                                <p class="position">Universiti Teknologi Malaysia <br> -Senior lecturer/Research fellow</p>
+                    <div class="col-6 col-md-3  ">
+                        <div class="icon_box_two">
+                            <i class="ion-ios-location-outline"></i>
+                            <div class="content">
+                                <h5 class="box_title">
+                                    location
+                                </h5>
+                                <p>
+                                    Mercu UEM, KL.
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a class="speakers-link" data-toggle="modal" data-target="#WyHow">
-                    <div class="speaker_box">
-                        <div class="speaker_img">
-                            <img src="assets/img/speakers/kohwyhow.jpg" alt="speaker name">
-                            <div class="info_box">
-                                <h5 class="name">Koh Wyhow</h5>
-                                <p class="position">Invoke <br> -Chief Analytics Officer <br> </p>
+
+                    <div class="col-6 col-md-3  ">
+                        <div class="icon_box_two">
+                            <i class="ion-ios-person-outline"></i>
+                            <div class="content">
+                                <h5 class="box_title">
+                                    speakers
+                                </h5>
+                                <p>
+                                    Dr Hau, Wyhow, Pedro, Fong Tuan + more
+                                </p>
                             </div>
                         </div>
                     </div>
-                </a>
+
+
+                </div>
+            </div>
+        </section>
+        <!--event info end -->
+
+
+        <!--event countdown -->
+        <section class="bg-img pt20 pb20" style="background-image: url('assets/img/bg/bg2.jpg');">
+            <div class="overlay_dark"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <h4 class="mb5 text-center color-light">COUNTDOWN UNTIL THE BIG EVENT</h4>
+                        <div class="countdown"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p id="about"></p>
+        <!--event count down end-->
+
+
+        <!--about the event -->
+        <section class="pt45 pb60">
+            <div class="container">
+
+                <div class="section_title">
+                    <h3 class="title">
+                        About the event
+                    </h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <p>
+                            The Malaysian Students’ Technology Conference (MSTC) is the first initiative spearheaded by Malaysian students studying in the UK that serves as a platform for topics that are relevant to STEM (Science, Technology, Engineering and Mathematics) students.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>
+                            Under the banner of Young Malaysian Engineers (YME) the conference will cover a wide range of topics within the scope of entrepreneurship, social, environment and corporate. Not only will the participants get to have better insights on the local challenges faced in Malaysia, they will also have the opportunity to network with people from the industry.
+                    </div>
+
+                </div>
+
+                <div class="section_title">
+                    <h3 class="title">
+                        About YME
+                    </h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6" style="text-align: center">
+                        <img src="assets/img/speakers/yme_logo.png" style="max-width: 40%; display: inline-block" alt="speaker name">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>
+                            Young Malaysian Engineers (YME) is a United Kingdom-based student organization built to empower Malaysian youth in the fields of Science, Technology, Engineering, and Maths (STEM). Founded in 2016, YME is one of the fastest-growing, STEM-oriented student bodies with 200+ registered members and a combined 2000+ followers on all social media platforms.
+                        </p>
+
+                        <div class="price_footer" style="text-align: center; margin-top: 5%">
+                            <a href="http://ymeglobal.org/" class="btn btn-primary btn-rounded" style="margin-right: 10px">Our Website</a>
+                            <a href="https://docs.google.com/forms/d/1jR1g4cuOb2MPrKZD9GoMQczXRsXPHuhB6JXoZp9Q2VU/prefill?fbclid=IwAR3Zy6lH2mHgcg8VXjINI8TC0ouX3R8fgGzIuFdi2d_p698UWzCjmP-CTTA" class="btn btn-primary btn-rounded" style="margin-left: 10px"> Join Us </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
 
             </div>
-            <div class="col-md-3 col-sm-6">
-                <a class="speakers-link" data-toggle="modal" data-target="#Pedro">
-                    <div class="speaker_box">
-                        <div class="speaker_img">
-                            <img src="assets/img/speakers/pedrouriarecio.jpg" alt="speaker name">
-                            <div class="info_box">
-                                <h5 class="name">Pedro Uria Recio</h5>
-                                <p class="position">Axiata <br> -Vice President & Head of Data Analytics</p>
+            <p id="speaker"></p>
+        </section>
+
+        <!--about the event end -->
+
+
+        <!--speaker section-->
+
+        <section class="pb60">
+            <div class="container">
+                <div class="section_title mb50">
+                    <h3 class="title">
+                        our speakers
+                    </h3>
+                </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+                <div class="col-md-3 col-sm-6">
+                    <a class="speakers-link" data-toggle="modal" data-target="#DrJasmine">
+                        <div class="speaker_box">
+                            <div class="speaker_img">
+                                <img src="assets/img/speakers/drjasminehau.jpg" alt="speaker name">
+                                <div class="info_box">
+                                    <h5 class="name">Dr. Jasmine Hau Yuan Wen</h5>
+                                    <p class="position">Universiti Teknologi Malaysia <br> -Senior lecturer/Research fellow</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <a class="speakers-link" data-toggle="modal" data-target="#FongTuan">
-                    <div class="speaker_box">
-                        <div class="speaker_img">
-                            <img src="assets/img/speakers/fongtuanchen.jpg" alt="speaker name">
-                            <div class="info_box">
-                                <h5 class="name">Chen Fong Tuan</h5>
-                                <p class="position">Samsung <br> -HR & General Affairs Director</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a class="speakers-link" data-toggle="modal" data-target="#WyHow">
+                        <div class="speaker_box">
+                            <div class="speaker_img">
+                                <img src="assets/img/speakers/kohwyhow.jpg" alt="speaker name">
+                                <div class="info_box">
+                                    <h5 class="name">Koh Wyhow</h5>
+                                    <p class="position">Invoke <br> -Chief Analytics Officer <br> </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
 
-            </div>
-
-
-        </div>
-        <p id="moreinfo"></p>
-    </section>
-    <!--speaker section end -->
-
-    <!--more info section-->
-    <section class="pb0">
-        <div class="container">
-            <div class="section_title mb30">
-                <h3 class="title">
-                    MORE INFO
-                </h3>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-12">
-                    <div class="price_box active">
-
-                        <div class="price_header">
-                            <h4>
-                                Mission,Vision
-                            </h4>
-                            <h6>
-                                Read more about the core values of MSTC
-                            </h6>
-                        </div>
-
-                        <div class="price_footer">
-                            <a href="#" class="btn btn-primary btn-rounded">Read more</a>
-                        </div>
-                    </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="price_box">
-                        <div class="price_header">
-                            <h4>
-                                Agenda
-                            </h4>
-                            <h6>
-                                Download or print out our schedule for MSTC 2019
-                            </h6>
+                <div class="col-md-3 col-sm-6">
+                    <a class="speakers-link" data-toggle="modal" data-target="#Pedro">
+                        <div class="speaker_box">
+                            <div class="speaker_img">
+                                <img src="assets/img/speakers/pedrouriarecio.jpg" alt="speaker name">
+                                <div class="info_box">
+                                    <h5 class="name">Pedro Uria Recio</h5>
+                                    <p class="position">Axiata <br> -Vice President & Head of Data Analytics</p>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="price_footer">
-                            <a href="#" class="btn btn-primary btn-rounded">Open PDF</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="price_box">
-                        <div class="price_header">
-                            <h4>
-                                Team
-                            </h4>
-                            <h6>
-                                Get to know the team behind MSTC 2019.
-                            </h6>
-                        </div>
-
-                        <div class="price_footer">
-                            <a href="ourTeam.html" class="btn btn-primary btn-rounded">Read more</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>x
-    <p id="sponsors"></p>
-    <!--more info section end -->
-
-    <!--sponsors section -->
-    <section class="bg-gray pt45 pb40">
-        <div class="container">
-
-            <div class="section_title mb50">
-                <h3 class="title">
-                    Our Sponsors
-                </h3>
-            </div>
-            <div class="brand_carousel owl-carousel">
-                <div class="brand_item text-center">
-                    <a href="http://www.pwc.co.uk/">
-                    <img src="assets/img/brands/pwc.png" alt="brand">
-                     </a>
-                </div>
-                <div class="brand_item text-center">
-                    <a href = "http://home.kpmg">
-                    <img src="assets/img/brands/kpmg.png" alt="brand">
-                     </a>
-                </div>
-
-                <div class="brand_item text-center">
-                    <a href = "https://www.mytukar.com">
-                    <img src="assets/img/brands/mytukar.png" alt="brand">
                     </a>
                 </div>
 
-            </div>
-        </div>
-    </section>
-    <!--brands section end-->
-
-    <!--register section -->
-    <section class="bg-img pt50 pb50" style="background-image: url('assets/img/bg/tickets.png');">
-        <div class="container">
-            <div class="section_title mb30">
-                <h3 class="title color-light">
-                    Register now!!
-                </h3>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-9 text-md-left text-center color-light">
-                    What are you waiting for?! Sign up now to get the experience of your life!
-                </div>
-                <div class="col-md-3 text-md-right text-center">
-                    <a href="#" class="btn btn-primary btn-rounded mt30">Register Now</a>
-                </div>
-            </div>
-        </div>
-        <p id="contact"></p>
-    </section>
-    <!--get tickets section end-->
-
-    <!--footer start -->
-    <footer>
-        <div class="container">
-            <div class="row justify-content-center">
-
-                <div class="col-md-4 col-12">
-                    <div class="footer_box">
-                        <div class="footer_header">
-                            <div class="footer_logo">
-                                <img src="assets/img/logo.png" alt="evento">
+                <div class="col-md-3 col-sm-6">
+                    <a class="speakers-link" data-toggle="modal" data-target="#FongTuan">
+                        <div class="speaker_box">
+                            <div class="speaker_img">
+                                <img src="assets/img/speakers/fongtuanchen.jpg" alt="speaker name">
+                                <div class="info_box">
+                                    <h5 class="name">Chen Fong Tuan</h5>
+                                    <p class="position">Samsung <br> -HR & General Affairs Director</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="footer_box_body">
+                    </a>
 
-                            <ul class="footer_social">
-
-                                <li>
-                                    <a href="http://www.facebook.com/malaysianstudentstechnologyconference/"><i class="ion-social-facebook"></i></a>
-                                </li>
-
-
-                                <li>
-                                    <a href="#"><i class="ion-social-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="col-12 col-md-4">
-                    <div class="footer_box">
-                        <div class="footer_header">
-                            <h4 class="footer_title">
-                                Posters
-                            </h4>
-                        </div>
-                        <div class="footer_box_body">
-                            <ul class="instagram_list">
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/cleander/c1.png" alt="instagram">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/cleander/c2.png" alt="instagram">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/cleander/c3.png" alt="instagram">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/cleander/c3.png" alt="instagram">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/cleander/c2.png" alt="instagram">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/cleander/c1.png" alt="instagram">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+            </div>
+            <p id="moreinfo"></p>
+        </section>
+        <!--speaker section end -->
+
+        <!--more info section-->
+        <section class="pb0">
+            <div class="container">
+                <div class="section_title mb30">
+                    <h3 class="title">
+                        MORE INFO
+                    </h3>
                 </div>
 
-                <div class="col-12 col-md-4">
-                    <div class="footer_box">
-                        <div class="footer_header">
-                            <h4 class="footer_title">
-                                Contact us here
-                            </h4>
-                        </div>
-                        <div class="footer_box_body">
-                            <div class="newsletter_form">
-                                <input type="email" class="form-control" placeholder="E-mail">
-                                <input type="text" class="form-control" placeholder="Enquiries">
-                                <button class="btn btn-rounded btn-block btn-primary">SEND</button>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-12">
+                        <div class="price_box active">
+
+                            <div class="price_header">
+                                <h4>
+                                    Mission,Vision
+                                </h4>
+                                <h6>
+                                    Read more about the core values of MSTC
+                                </h6>
+                            </div>
+
+                            <div class="price_footer">
+                                <a href="#" class="btn btn-primary btn-rounded">Read more</a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+                    <div class="col-md-4 col-12">
+                        <div class="price_box">
+                            <div class="price_header">
+                                <h4>
+                                    Agenda
+                                </h4>
+                                <h6>
+                                    Download or print out our schedule for MSTC 2019
+                                </h6>
+                            </div>
 
-
-    <!--pop up start-->
-
-
-    <div class="portfolio-modal modal fade" id="DrJasmine" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
+                            <div class="price_footer">
+                                <a href="#" class="btn btn-primary btn-rounded">Open PDF</a>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-md-4 col-12">
+                        <div class="price_box">
+                            <div class="price_header">
+                                <h4>
+                                    Team
+                                </h4>
+                                <h6>
+                                    Get to know the team behind MSTC 2019.
+                                </h6>
+                            </div>
+
+                            <div class="price_footer">
+                                <a href="ourTeam.html" class="btn btn-primary btn-rounded">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>
-                                    <font size="6"> Dr. Jasmine Hau Yuan Wen</font>
-                                </h2>
-                                <hr class="star-primary">
-                                <img src="assets/img/speakers/drjasminehau.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Yeo Bee Yin">
-                                <img src="assets/img/speakers/utm.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="UTM logo">
-                                <p style="clear:both;">
-                                    <h3>
-                                        <font size="5"> Topic: Keynote </font>
-                                    </h3>
-                                    <p>Dr. Jasmine Hau Yuan Wen is a research fellow and the head of Cardiac Informatics Cluster
-                                        at IJN-UTM Cardiovascular Engineering Centre, Universiti Teknologi Malaysia. She
-                                        is also a senior lecturer at the Faculty of Biosciences and Medical Engineering,
-                                        Universiti Teknologi Malaysia. She received both Ph.D. degree and master degree in electrical engineering from Universiti Teknologi Malaysia in 2009 and 2005, respectively. Dr. Hau's research interests include various fields such as processors, data security application, biomedical applications and many others.</p>
+            </div>
+
+        </section>
+        <p id="sponsors"></p>
+        <!--more info section end -->
+
+        <!--sponsors section -->
+        <section class="bg-gray pt45 pb40">
+            <div class="container">
+
+                <div class="section_title mb50">
+                    <h3 class="title">
+                        Our Sponsors
+                    </h3>
+                </div>
+                <div class="brand_carousel owl-carousel">
+                    <div class="brand_item text-center">
+                        <a href="http://www.pwc.co.uk/">
+                            <img src="assets/img/brands/pwc.png" alt="brand">
+                        </a>
+                    </div>
+                    <div class="brand_item text-center">
+                        <a href="http://home.kpmg">
+                            <img src="assets/img/brands/kpmg.png" alt="brand">
+                        </a>
+                    </div>
+
+                    <div class="brand_item text-center">
+                        <a href="https://www.mytukar.com">
+                            <img src="assets/img/brands/mytukar.png" alt="brand">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--brands section end-->
+
+        <!--register section -->
+        <section class="bg-img pt50 pb50" style="background-image: url('assets/img/bg/tickets.png');">
+            <div class="container">
+                <div class="section_title mb30">
+                    <h3 class="title color-light">
+                        Register now!!
+                    </h3>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-9 text-md-left text-center color-light">
+                        What are you waiting for?! Sign up now to get the experience of your life!
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <a href="#" class="btn btn-primary btn-rounded mt30">Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <p id="contact"></p>
+        </section>
+        <!--get tickets section end-->
+
+        <!--footer start -->
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-4 col-12">
+                        <div class="footer_box">
+                            <div class="footer_header">
+                                <div class="footer_logo">
+                                    <img src="assets/img/logo.png" alt="evento">
+                                </div>
+                            </div>
+                            <div class="footer_box_body">
+
+                                <ul class="footer_social">
+
+                                    <li>
+                                        <a href="http://www.facebook.com/malaysianstudentstechnologyconference/"><i class="ion-social-facebook"></i></a>
+                                    </li>
 
 
-                                    <p> &#8226; Over 50 published papers </p>
-                                    <p> &#8226; Owns a nationa l patent and copyrights </p>
-                                    <p>&#8226; Member of IEEE</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <li>
+                                        <a href="#"><i class="ion-social-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="footer_box">
+                            <div class="footer_header">
+                                <h4 class="footer_title">
+                                    Posters
+                                </h4>
+                            </div>
+                            <div class="footer_box_body">
+                                <ul class="instagram_list">
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/cleander/c1.png" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/cleander/c2.png" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/cleander/c3.png" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/cleander/c3.png" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/cleander/c2.png" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/cleander/c1.png" alt="instagram">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="footer_box">
+                            <div class="footer_header">
+                                <h4 class="footer_title">
+                                    Contact us here
+                                </h4>
+                            </div>
+                            <div class="footer_box_body">
+                                <div class="newsletter_form">
+                                    <input type="email" class="form-control" placeholder="E-mail">
+                                    <input type="text" class="form-control" placeholder="Enquiries">
+                                    <button class="btn btn-rounded btn-block btn-primary">SEND</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
 
 
-    <div class="portfolio-modal modal fade" id="WyHow" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
+        <!--pop up start-->
+
+
+        <div class="portfolio-modal modal fade" id="DrJasmine" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>
-                                    <font size="7">Koh Wyhow</font>
-                                </h2>
-                                <hr class="star-primary">
-                                <img src="assets/img/speakers/kohwyhow.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Koh Wyhow">
-                                <img src="assets/img/speakers/invoke.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="UTM logo">
-                                <p style="clear:both;">
-                                    <h3>
-                                        <font size="5"> Topic: Keynote </font>
-                                    </h3>
-                                    <p>Koh Wyhow is a data analytics professional with an excess of 5 years of experience, who obtained his Bachelor of Science in Mathematics from NUS. His work involves providing advanced analytics and business intelligence solutions for airlines, media, property and FMCG industries using various data science techniques such as Decision Trees, Random Forest and many more. </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>
+                                        <font size="6"> Dr. Jasmine Hau Yuan Wen</font>
+                                    </h2>
+                                    <hr class="star-primary">
+                                    <img src="assets/img/speakers/drjasminehau.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Yeo Bee Yin">
+                                    <img src="assets/img/speakers/utm.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="UTM logo">
+                                    <p style="clear:both;">
+                                        <h3>
+                                            <font size="5"> Topic: Keynote </font>
+                                        </h3>
+                                        <p>Dr. Jasmine Hau Yuan Wen is a research fellow and the head of Cardiac Informatics Cluster
+                                            at IJN-UTM Cardiovascular Engineering Centre, Universiti Teknologi Malaysia. She
+                                            is also a senior lecturer at the Faculty of Biosciences and Medical Engineering,
+                                            Universiti Teknologi Malaysia. She received both Ph.D. degree and master degree in electrical engineering from Universiti Teknologi Malaysia in 2009 and 2005, respectively. Dr. Hau's research interests include various fields such as processors, data security application, biomedical applications and many others.</p>
 
-                                    <p>&#8226; Helped steer Pakatan Harapan to victory in GE14 </p>
-                                    <p>&#8226; Developed forecasting models to model future job vacancies, identify prospective customers, electoral results and many more.
-                                        <p>&#8226; 99% of students achieving a minimum of A whilst teaching in Taylors College. </p>
+
+                                        <p> &#8226; Over 50 published papers </p>
+                                        <p> &#8226; Owns a nationa l patent and copyrights </p>
+                                        <p>&#8226; Member of IEEE</p>
                                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-
-    <div class="portfolio-modal modal fade" id="Pedro" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
+        <div class="portfolio-modal modal fade" id="WyHow" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>
-                                    <font size="7">Pedro Uria Recio</font>
-                                </h2>
-                                <hr class="star-primary">
-                                <img src="assets/img/speakers/pedrouriarecio.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Pedro Uria Recio">
-                                <img src="assets/img/speakers/axiata.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Axiata">
-                                <p style="clear:both;">
-                                    <h3>
-                                        <font size="5"> Topic: Keynote </font>
-                                    </h3>
-                                    <p>
-                                        Pedro Uria Recio is a senior marketing leader, highly experienced in data analytics, AI, product marketing and P&L management. At Axiata, he is the Group’s head of analytics with focus on marketing and is responsible for below-the-line marketing. He has worked in many countries such as USA, China and France. He obtained his MBA From Chicago Booth and is currently pursuing a pro-degree in fintech by Barclays. He is enthusiastic about coaching and developing people and has built many leading high-performing teams from scratch.
-                                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>
+                                        <font size="7">Koh Wyhow</font>
+                                    </h2>
+                                    <hr class="star-primary">
+                                    <img src="assets/img/speakers/kohwyhow.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Koh Wyhow">
+                                    <img src="assets/img/speakers/invoke.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="UTM logo">
+                                    <p style="clear:both;">
+                                        <h3>
+                                            <font size="5"> Topic: Keynote </font>
+                                        </h3>
+                                        <p>Koh Wyhow is a data analytics professional with an excess of 5 years of experience, who obtained his Bachelor of Science in Mathematics from NUS. His work involves providing advanced analytics and business intelligence solutions for airlines, media, property and FMCG industries using various data science techniques such as Decision Trees, Random Forest and many more. </p>
 
-                                    <p>&#8226; Implemented analytical models in multiple countries to study customer behaviour. </p>
-                                    <p>&#8226; Created credit scoring models with telecom data, which are used by 2 external banks and new micro-finance businesses. </p>
-                                    <p>&#8226; Developed a chatbot for customer service operating in four countries. </p>
-                                    <p>&#8226; Tripled sales in Indonesia to USD $9m</p>
-
-
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                        <p>&#8226; Helped steer Pakatan Harapan to victory in GE14 </p>
+                                        <p>&#8226; Developed forecasting models to model future job vacancies, identify prospective customers, electoral results and many more.
+                                            <p>&#8226; 99% of students achieving a minimum of A whilst teaching in Taylors College. </p>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="portfolio-modal modal fade" id="FongTuan" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
+
+
+        <div class="portfolio-modal modal fade" id="Pedro" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>
-                                    <font size="7">Chen Fong Tuan</font>
-                                </h2>
-                                <hr class="star-primary">
-                                <img src="assets/img/speakers/fongtuanchen.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Fong Tuan Chen">
-                                <img src="assets/img/speakers/samsung.png" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="UTM logo">
-                                <p style="clear:both;">
-                                    <h3>
-                                        <font size="5"> Topic: Keynote </font>
-                                    </h3>
-                                    <p>Chen Fong Tuan is The HR director at Samsung Electronics. His expertise in innovating dynamic people programs and initiatives to optimise employee experience has enabled all of his organisations to achieve targeted business objectives. He has managed the entire spectrum of HR in a multitude of portfolios whilst working in multiple industries such as utility, financial services, medical tech and real estate. He obtained his BEng from the University of Sussex and also obtained his MBA from the Charles Sturt University. </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>
+                                        <font size="7">Pedro Uria Recio</font>
+                                    </h2>
+                                    <hr class="star-primary">
+                                    <img src="assets/img/speakers/pedrouriarecio.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Pedro Uria Recio">
+                                    <img src="assets/img/speakers/axiata.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Axiata">
+                                    <p style="clear:both;">
+                                        <h3>
+                                            <font size="5"> Topic: Keynote </font>
+                                        </h3>
+                                        <p>
+                                            Pedro Uria Recio is a senior marketing leader, highly experienced in data analytics, AI, product marketing and P&L management. At Axiata, he is the Group’s head of analytics with focus on marketing and is responsible for below-the-line marketing. He has worked in many countries such as USA, China and France. He obtained his MBA From Chicago Booth and is currently pursuing a pro-degree in fintech by Barclays. He is enthusiastic about coaching and developing people and has built many leading high-performing teams from scratch.
+                                        </p>
 
-                                    <p>&#8226; Training and Productivity Manager for Coca Cola Malaysia</p>
-                                    <p>&#8226; Assistant VP,Head for Talent Management at OCBC Bank.</p>
-                                    <p>&#8226; Executive Vice President and Head for various sectors in Maybank </p>
-                                    <p>&#8226; Human Resource Director for B.Braun Group.</p>
-                                    <p>&#8226; Chief People Officer,Head for Mah Sing Group Berhad. </p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                        <p>&#8226; Implemented analytical models in multiple countries to study customer behaviour. </p>
+                                        <p>&#8226; Created credit scoring models with telecom data, which are used by 2 external banks and new micro-finance businesses. </p>
+                                        <p>&#8226; Developed a chatbot for customer service operating in four countries. </p>
+                                        <p>&#8226; Tripled sales in Indonesia to USD $9m</p>
+
+
+                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--pop up end-->
 
+        <div class="portfolio-modal modal fade" id="FongTuan" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>
+                                        <font size="7">Chen Fong Tuan</font>
+                                    </h2>
+                                    <hr class="star-primary">
+                                    <img src="assets/img/speakers/fongtuanchen.jpg" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="Picture of Fong Tuan Chen">
+                                    <img src="assets/img/speakers/samsung.png" style="float: left; width 30%; margin-right: 1%; margin=bottom: 0.5em;" class="img-responsive img-centered" alt="UTM logo">
+                                    <p style="clear:both;">
+                                        <h3>
+                                            <font size="5"> Topic: Keynote </font>
+                                        </h3>
+                                        <p>Chen Fong Tuan is The HR director at Samsung Electronics. His expertise in innovating dynamic people programs and initiatives to optimise employee experience has enabled all of his organisations to achieve targeted business objectives. He has managed the entire spectrum of HR in a multitude of portfolios whilst working in multiple industries such as utility, financial services, medical tech and real estate. He obtained his BEng from the University of Sussex and also obtained his MBA from the Charles Sturt University. </p>
 
-
-
-
-    <div class="copyright_footer">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-12">
-                    <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>
-                            document.write(new Date().getFullYear());
-
-                        </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
+                                        <p>&#8226; Training and Productivity Manager for Coca Cola Malaysia</p>
+                                        <p>&#8226; Assistant VP,Head for Talent Management at OCBC Bank.</p>
+                                        <p>&#8226; Executive Vice President and Head for various sectors in Maybank </p>
+                                        <p>&#8226; Human Resource Director for B.Braun Group.</p>
+                                        <p>&#8226; Chief People Officer,Head for Mah Sing Group Berhad. </p>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <!--pop up end-->
 
+
+
+
+
+        <div class="copyright_footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-12">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -729,6 +764,7 @@ title: MSTC2019 Paradigm
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom js -->
     <script src="assets/js/main.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
