@@ -37,7 +37,7 @@ var MSTCMembers = [
         Department: "Advisors",
         Position: "Advisor",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "Passionate about music, food and art. Besides being the President of YME-UK, I am also in the A Capella Team at Imperial. Always open for a chat so hit me up if you need any help or advice!.",
         Image: "jaselyn_mstc.png"
         },
     {
