@@ -444,33 +444,81 @@ h1.main, p.demos {
 }
 
 #splash_container {
-    animation: changePicture 14s;
     background-size: 100% auto;
     background-image: url(assets/img/team.png);
+    transition-delay: 5s
 }
 
-@keyframes changePicture {
+.sp-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.one {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+}
+
+.two {
+    opacity: 0;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+
+.three {
+    opacity: 0;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-delay: 6s;
+    animation-direction: alternate;
+}
+
+.four {
+    opacity: 0;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-delay: 9s;
+    animation-direction: alternate;
+}
+
+.five {
+    opacity: 0;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-delay: 12s;
+    animation-direction: alternate;
+}
+
+@keyframes cf3FadeInOut {
     0% {
-        background-image: url(assets/img/kualalumpur.jpg);
+        opacity: 1;
     }
 
-    20% {
-        background-image: url(assets/img/kualalumpur.jpg);
+    45% {
+        opacity: 1;
     }
 
-    40% {
-        background-image: url(assets/img/img1.jpg);
-    }
-
-    60% {
-        background-image: url(assets/img/img2.jpg);
-    }
-
-    80% {
-        background-image: url(assets/img/topglove.jpg);
+    55% {
+        opacity: 0;
     }
 
     100% {
-        background-image: url(assets/img/team.png);
+        opacity: 0;
     }
 }

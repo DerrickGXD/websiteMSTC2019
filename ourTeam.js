@@ -198,7 +198,7 @@ var MSTCMembers = [
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "Engineering technology student from Universiti Malaysia Pahang. Working under Finance and sponsorship team in MSTC'19.",
-        Image: "unknown.jpg"
+        Image: "rabiatul_mstc.jpg"
         },
     {
         Name: "Muhammad Ikram Bin Firman",
@@ -248,7 +248,7 @@ var MSTCMembers = [
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "I haven't reveal about myself yet.",
-        Image: "unknown.jpg"
+        Image: "yunhong_mstc.jpg"
         },
     {
         Name: "Zulhanais",
@@ -278,7 +278,7 @@ var MSTCMembers = [
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "meow meow meow woof woof woof.",
-        Image: "unknown.jpg"
+        Image: "jared_mstc.png"
         },
     {
         Name: "Chin Yee Xin",
