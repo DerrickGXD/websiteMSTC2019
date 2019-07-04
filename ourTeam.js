@@ -309,6 +309,16 @@ var MSTCMembers = [
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "An MEng Chemical Engineering student currently interning at Petronas Dagangan Berhad under Health, Safety and Environment (HSE) Risk Division. What I like? Definitely matcha.",
         Image: "farhana_mstc.png"
+        },
+    {
+        Name: "Abdul Moeed Rehman",
+        University: "University Technology Malaysia",
+        Course: "Mechanical Engineering",
+        Department: "Human Resources",
+        Position: "Officer",
+        About_MSTC: "Join MSTC, you'll never regret!",
+        About_Me: "Automotive enthusiast currently pursuing my bachelors degree in Mechanical/Automotive engineering. Upcoming Stig in the car world.",
+        Image: "abdul_mstc.jpg"
         }
     ];
 
