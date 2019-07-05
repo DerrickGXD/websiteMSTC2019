@@ -287,13 +287,13 @@ var MSTCMembers = [
         Department: "Media and Marketing",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "Energy and Environmental Engineering Technology Student at University Malaysia Pahang. Working under Media and Marketing in MSTC 2019.",
+        About_Me: "Economics student and UTAR female futsal team representative.",
         Image: "yeexin_mstc.jpg"
         },
     {
         Name: "Sanggavi A/P R Ganesan",
         University: "University Malaysia Pahang",
-        Course: "Energy and Environmental Engineering Technology",
+        Course: "Energand Environmental Engineering Technology",
         Department: "Media and Marketing",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
