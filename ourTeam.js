@@ -78,7 +78,7 @@ var MSTCMembers = [
         Position: "Executive Coordinator",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "I haven't reveal about myself yet.",
-        Image: "unknown.jpg"
+        Image: "imran_mstc.jpg"
         },
     {
         Name: "Iyliana Hiylda",
@@ -218,7 +218,7 @@ var MSTCMembers = [
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "Business management in university of kent.",
-        Image: "unknown.jpg"
+        Image: "hoyen_mstc.jpg"
         },
     {
         Name: "Derrick Goh",
