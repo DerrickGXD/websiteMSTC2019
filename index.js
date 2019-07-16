@@ -13,10 +13,6 @@ function startSplash() {
     audio.play();
     setTimeout(function () {
         if (splashNotClosed) {
-            var msg = new SpeechSynthesisUtterance('MSTC Twenty Nineteen Paradigm');
-            var voices = window.speechSynthesis.getVoices();
-            msg.voice = voices[2];
-            window.speechSynthesis.speak(msg);
             $("#close_splash").fadeOut();
         }
     }, 14000);
