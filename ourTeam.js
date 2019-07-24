@@ -67,7 +67,7 @@ var MSTCMembers = [
         Department: "Executive",
         Position: "Executive Coordinator",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "A theoretical physics student from Imperial College London. Acting as the Executive Coordinator of MSTC 2019: Paradigm. Aiming to make a shift in participants' paradigm on Science and Technology!",
+        About_Me: "Fanatic for anything to do with food. Studying a Mechanical Engineering degree at the University of Manchester!!",
         Image: "kenrick_mstc.png"
         },
     {
@@ -77,8 +77,8 @@ var MSTCMembers = [
         Department: "Executive",
         Position: "Executive Coordinator",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
-        Image: "imran_mstc.jpg"
+        About_Me: "Adrenaline and speed junkie. However, also slowest at the dinner table.",
+        Image: "imran_mstc.jpeg"
         },
     {
         Name: "Iyliana Hiylda",
@@ -87,7 +87,7 @@ var MSTCMembers = [
         Department: "Operation and Logistics",
         Position: "Head of Department",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "A wanderer, currently based in London pursuing Chemical Engineering. Ona mission to drink less boba!",
         Image: "ih_mstc.png"
         },
     {
@@ -127,7 +127,7 @@ var MSTCMembers = [
         Department: "Operation and Logistics",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "Chemical Engineering Student at Imperial College London.",
         Image: "unknown.jpg"
         },
     {
@@ -137,7 +137,7 @@ var MSTCMembers = [
         Department: "Operation and Logistics",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "Chemical Engineering Student at Imperial College London.",
         Image: "unknown.jpg"
         },
     {
