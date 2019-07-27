@@ -12,8 +12,8 @@ var modalArr = ["advisorModal", "executiveModal", "logisticsModal", "financeModa
 var MSTCMembers = [
     {
         Name: "Zhi Chao",
-        University: "Unknown",
-        Course: "Unknown",
+        University: "University College London",
+        Course: "Economics",
         Department: "Advisors",
         Position: "Advisor",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -22,8 +22,8 @@ var MSTCMembers = [
         },
     {
         Name: "Azrai",
-        University: "University College London",
-        Course: "Unknown",
+        University: "University of Southampton",
+        Course: "Mechanical Engineering",
         Department: "Advisors",
         Position: "Advisor",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -47,7 +47,7 @@ var MSTCMembers = [
         Department: "Advisors",
         Position: "Advisor",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "Chemical engineering student from Cambridge.",
         Image: "cs_mstc.png"
         },
     {
@@ -63,7 +63,7 @@ var MSTCMembers = [
     {
         Name: "Kenrick Tan",
         University: "University of Manchester",
-        Course: "Unknown",
+        Course: "Mechanical Engineering",
         Department: "Executive",
         Position: "Executive Coordinator",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -73,7 +73,7 @@ var MSTCMembers = [
     {
         Name: "Imran bin Ahmad Azhar",
         University: "Imperial College London",
-        Course: "Unknown",
+        Course: "Aeuronautical Engineering",
         Department: "Executive",
         Position: "Executive Coordinator",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -92,7 +92,7 @@ var MSTCMembers = [
         },
     {
         Name: "Zhang Quan",
-        University: "Unknown",
+        University: "Imperial College London",
         Course: "Mechanical Engineering",
         Department: "Operation and Logistics",
         Position: "Head of Department",
@@ -123,7 +123,7 @@ var MSTCMembers = [
     {
         Name: "Wei Yang Lee",
         University: "Imperial College London",
-        Course: "Unknown",
+        Course: "Chemical Engineering",
         Department: "Operation and Logistics",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -133,7 +133,7 @@ var MSTCMembers = [
     {
         Name: "Adam Muqhriz bin Nor Iskandar Shah",
         University: "King's College London",
-        Course: "Unknown",
+        Course: "Biomedical Engineering",
         Department: "Operation and Logistics",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -153,21 +153,21 @@ var MSTCMembers = [
     {
         Name: "Ivan Chong",
         University: "University of Manchester",
-        Course: "Unknown",
+        Course: "Chemical Engineering",
         Department: "Finance and Sponsorship",
         Position: "Head of Department",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "Chemical Engineering student at the University of Manchester",
         Image: "ivan_mstc.png"
         },
     {
         Name: "Wei Hao",
         University: "University of Southhampton",
-        Course: "Unknown",
+        Course: "Electrical and Electronic Engineering",
         Department: "Finance and Sponsorship",
         Position: "Head of Department",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "Electrical and Electronic Engineering Student seeking oppoturnities in building next generations of biomedical devices.",
         Image: "wh_mstc.png"
         },
     {
@@ -193,7 +193,7 @@ var MSTCMembers = [
     {
         Name: "Rabiatul 'Adawiyah Binti Salamth Ebramsa",
         University: "University Malaysia Pahang",
-        Course: "Engineering Technology",
+        Course: "Unknown",
         Department: "Finance and Sponsorship",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -243,7 +243,7 @@ var MSTCMembers = [
     {
         Name: "Yun Hong Yong",
         University: "Imperial College London",
-        Course: "Unknown",
+        Course: "Electrical Engineering",
         Department: "Media and Marketing",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -283,7 +283,7 @@ var MSTCMembers = [
     {
         Name: "Chin Yee Xin",
         University: "University Tunku Abdul Rahman",
-        Course: "Unknown",
+        Course: "Econimics",
         Department: "Media and Marketing",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -302,8 +302,8 @@ var MSTCMembers = [
         },
     {
         Name: "Farhana Rosol",
-        University: "Unknown",
-        Course: "Unknown",
+        University: "University College London",
+        Course: "Chemical Engineering",
         Department: "Human Resources",
         Position: "Head of Department",
         About_MSTC: "Join MSTC, you'll never regret!",
