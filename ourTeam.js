@@ -107,8 +107,8 @@ var MSTCMembers = [
         Department: "Operation and Logistics",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "Chemical Engineering student at the University of Manchester.",
-        Image: "unknown.jpg"
+        About_Me: "I'm studying chemical engineering at Manchester, and I'll see you at MSTC 2019!",
+        Image: "shu_mstc.jpeg"
         },
     {
         Name: "Yeo Wei Hung",
@@ -137,7 +137,7 @@ var MSTCMembers = [
         Department: "Operation and Logistics",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "Chemical Engineering Student at Imperial College London.",
+        About_Me: "Biomedical Engineering student at King’s College London",
         Image: "unknown.jpg"
         },
     {
@@ -406,7 +406,237 @@ $(document).ready(function () {
             labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
             datasets: [{
                 backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
-                data: [4, 3, 7, 7, 8, 1]
+                data: [4, 3, 7, 7, 8, 2]
+            }]
+        },
+        border: 0
+
+    });
+
+        setTimeout(typeWriter2, speed);
+    })
+
+
+
+function typeWriter3() {
+    if (k < txtTitle.length) {
+        document.getElementById("title_name").innerHTML += txtTitle.charAt(k);
+        k++;
+        setTimeout(typeWriter3, speed);
+    }
+
+
+}
+
+function setModalType(modal) {
+    modalType = modalArr[modal];
+}
+
+function modalBack() {
+    document.getElementById(modalType).style.visibility = "visible";
+
+}
+
+function setModal(id) {
+    i = 0;
+    j = 0;
+    k = 0;
+    document.getElementById(modalType).style.visibility = "hidden";
+    document.getElementById("memberName").innerHTML = "";
+    document.getElementById("department_name").innerHTML = "";
+    document.getElementById("description_name").innerHTML = "";
+    document.getElementById("title_name").innerHTML = "";
+
+
+
+    if (id != null) {
+        $("#member_img").attr("src", "assets/img/team/" + MSTCMembers[id].Image);
+        txtName = MSTCMembers[id].Name;
+        txtDept = MSTCMembers[id].Department;
+        txtTitle = MSTCMembers[id].Position;
+        txtDescription = MSTCMembers[id].University + '<br><br><br>' + MSTCMembers[id].Course + '<br><br><br>' + MSTCMembers[id].About_Me;
+        document.getElementById("description_name").innerHTML = txtDescription;
+        setTimeout(typeWriter, 500);
+        setTimeout(typeWriter2, 1500);
+        setTimeout(typeWriter3, 1500);
+    }
+
+}
+
+
+
+
+
+
+$(document).ready(function () {
+    var vid = document.getElementById("mstc_video");
+    var ctx = document.getElementById('pieChart').getContext('2d');
+    var ctx2 = document.getElementById('pieChart2').getContext('2d');
+    var ctx3 = document.getElementById('pieChart3').getContext('2d');
+    var ctx4 = document.getElementById('pieChart4').getContext('2d');
+    var ctx5 = document.getElementById('pieChart5').getContext('2d');
+    var ctx6 = document.getElementById('pieChart6').getContext('2d');
+    var ctx7 = document.getElementById('pieChart7').getContext('2d');
+
+    var myPieChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
+            datasets: [{
+                backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
+                data: [4, 3, 7, 7, 8, 2]
+            }]
+        },
+        border: 0
+
+    });
+
+        setTimeout(typeWriter2, speed);
+    })
+
+function typeWriter3() {
+    if (k < txtTitle.length) {
+        document.getElementById("title_name").innerHTML += txtTitle.charAt(k);
+        k++;
+        setTimeout(typeWriter3, speed);
+    }
+
+
+}
+
+function setModalType(modal) {
+    modalType = modalArr[modal];
+}
+
+function modalBack() {
+    document.getElementById(modalType).style.visibility = "visible";
+
+}
+
+function setModal(id) {
+    i = 0;
+    j = 0;
+    k = 0;
+    document.getElementById(modalType).style.visibility = "hidden";
+    document.getElementById("memberName").innerHTML = "";
+    document.getElementById("department_name").innerHTML = "";
+    document.getElementById("description_name").innerHTML = "";
+    document.getElementById("title_name").innerHTML = "";
+
+
+
+    if (id != null) {
+        $("#member_img").attr("src", "assets/img/team/" + MSTCMembers[id].Image);
+        txtName = MSTCMembers[id].Name;
+        txtDept = MSTCMembers[id].Department;
+        txtTitle = MSTCMembers[id].Position;
+        txtDescription = MSTCMembers[id].University + '<br><br><br>' + MSTCMembers[id].Course + '<br><br><br>' + MSTCMembers[id].About_Me;
+        document.getElementById("description_name").innerHTML = txtDescription;
+        setTimeout(typeWriter, 500);
+        setTimeout(typeWriter2, 1500);
+        setTimeout(typeWriter3, 1500);
+    }
+
+}
+
+
+
+
+
+
+$(document).ready(function () {
+    var vid = document.getElementById("mstc_video");
+    var ctx = document.getElementById('pieChart').getContext('2d');
+    var ctx2 = document.getElementById('pieChart2').getContext('2d');
+    var ctx3 = document.getElementById('pieChart3').getContext('2d');
+    var ctx4 = document.getElementById('pieChart4').getContext('2d');
+    var ctx5 = document.getElementById('pieChart5').getContext('2d');
+    var ctx6 = document.getElementById('pieChart6').getContext('2d');
+    var ctx7 = document.getElementById('pieChart7').getContext('2d');
+
+    var myPieChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
+            datasets: [{
+                backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
+                data: [4, 3, 7, 7, 8, 2]
+            }]
+        },
+        border: 0
+
+    });
+
+        setTimeout(typeWriter2, speed);
+    })
+
+function typeWriter3() {
+    if (k < txtTitle.length) {
+        document.getElementById("title_name").innerHTML += txtTitle.charAt(k);
+        k++;
+        setTimeout(typeWriter3, speed);
+    }
+
+
+}
+
+function setModalType(modal) {
+    modalType = modalArr[modal];
+}
+
+function modalBack() {
+    document.getElementById(modalType).style.visibility = "visible";
+
+}
+
+function setModal(id) {
+    i = 0;
+    j = 0;
+    k = 0;
+    document.getElementById(modalType).style.visibility = "hidden";
+    document.getElementById("memberName").innerHTML = "";
+    document.getElementById("department_name").innerHTML = "";
+    document.getElementById("description_name").innerHTML = "";
+    document.getElementById("title_name").innerHTML = "";
+
+
+
+    if (id != null) {
+        $("#member_img").attr("src", "assets/img/team/" + MSTCMembers[id].Image);
+        txtName = MSTCMembers[id].Name;
+        txtDept = MSTCMembers[id].Department;
+        txtTitle = MSTCMembers[id].Position;
+        txtDescription = MSTCMembers[id].University + '<br><br><br>' + MSTCMembers[id].Course + '<br><br><br>' + MSTCMembers[id].About_Me;
+        document.getElementById("description_name").innerHTML = txtDescription;
+        setTimeout(typeWriter, 500);
+        setTimeout(typeWriter2, 1500);
+        setTimeout(typeWriter3, 1500);
+    }
+
+}
+
+
+
+
+
+
+$(document).ready(function () {
+    var vid = document.getElementById("mstc_video");
+    var ctx = document.getElementById('pieChart').getContext('2d');
+    var ctx2 = document.getElementById('pieChart2').getContext('2d');
+    var ctx3 = document.getElementById('pieChart3').getContext('2d');
+    var ctx4 = document.getElementById('pieChart4').getContext('2d');
+    var ctx5 = document.getElementById('pieChart5').getContext('2d');
+    var ctx6 = document.getElementById('pieChart6').getContext('2d');
+    var ctx7 = document.getElementById('pieChart7').getContext('2d');
+
+    var myPieChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
+            datasets: [{
+                backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
+                data: [4, 3, 7, 7, 8, 2]
             }]
         },
         border: 0
@@ -419,20 +649,21 @@ $(document).ready(function () {
             labels: ["Malay", "Chinese", "Indian"],
             datasets: [{
                 backgroundColor: ["#2ecc71", "#f15840", "#9b59b6"],
-                data: [8, 20, 2]
+                data: [8, 20, 3]
             }]
         },
         border: 0
 
     });
 
+
     var myPieChart3 = new Chart(ctx3, {
         type: 'doughnut',
         data: {
-            labels: ["Chem Eng", "Mech Eng", "Civil Eng", "Computer Science"],
+            labels: ["Economics", "Unknown", "Mechanical", "Chemical", "Aerospace", "Physics", "Biomedical", "Computer Science", "Electric", "Maths/Business", "Civil", "Energy and Environmental"],
             datasets: [{
-                backgroundColor: ["#f15840", "#f1c40f", "#2ecc71", "#34495e"],
-                data: [20, 5, 4, 1]
+                backgroundColor: ["#f15840","#111f5c","#f1c40f", "#2ecc71", "#34495e", "#54b033","#3299a8","#b03350", "#7dafc9", "#004717", "#d813ed", "#3260a8", "#4a6c52"],
+                data: [2, 6, 4, 8,2,1,1,1,2,1,1,1,1]
             }]
         },
         border: 0
@@ -445,7 +676,7 @@ $(document).ready(function () {
             labels: ["Malaysia", "UK"],
             datasets: [{
                 backgroundColor: ["#f1c40f", "#3498db"],
-                data: [5, 25]
+                data: [6, 25]
             }]
         },
         border: 0
@@ -459,7 +690,7 @@ $(document).ready(function () {
             labels: ["Male", "Female"],
             datasets: [{
                 backgroundColor: ["#34495e", "#9b59b6"],
-                data: [20, 10]
+                data: [21, 10]
             }]
         },
         border: 0
@@ -472,7 +703,7 @@ $(document).ready(function () {
             labels: ["YME-BOD", "Non YME-BOD"],
             datasets: [{
                 backgroundColor: ["#f15840", "#f1c40f"],
-                data: [11, 19]
+                data: [11, 20]
             }]
         },
         options: {
@@ -491,13 +722,13 @@ $(document).ready(function () {
             labels: ["YME Members"],
             datasets: [{
                 backgroundColor: ["#f15840"],
-                data: [30]
+                data: [31]
             }]
         },
         options: {
             title: {
                 display: true,
-                text: ['Joining MSTC core team will automatically makes you a part of YME.', 'Totally worth it!']
+                text: ['Joining MSTC core team will automatically makes you a part of YME and subscribed for YME Insider.', 'Totally worth it!']
             }
         },
         border: 0
