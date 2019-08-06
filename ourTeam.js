@@ -17,8 +17,8 @@ var MSTCMembers = [
         Department: "Advisors",
         Position: "Advisor",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
-        Image: "unknown.jpg"
+        About_Me: "Final year Economics student at UCL who was also one of the executive coordinators of MSTC 2018.",
+        Image: "zhi_mstc.jpg"
         },
     {
         Name: "Azrai",
@@ -27,8 +27,8 @@ var MSTCMembers = [
         Department: "Advisors",
         Position: "Advisor",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
-        Image: "unknown.jpg"
+        About_Me: "Next Elon Musk in the making (I hope).",
+        Image: "azrai_mstc.jpg"
         },
     {
         Name: "Jaselyn Chan",
@@ -73,7 +73,7 @@ var MSTCMembers = [
     {
         Name: "Imran bin Ahmad Azhar",
         University: "Imperial College London",
-        Course: "Aeuronautical Engineering",
+        Course: "Aeronautical Engineering",
         Department: "Executive",
         Position: "Executive Coordinator",
         About_MSTC: "Join MSTC, you'll never regret!",
@@ -193,11 +193,11 @@ var MSTCMembers = [
     {
         Name: "Rabiatul 'Adawiyah Binti Salamth Ebramsa",
         University: "University Malaysia Pahang",
-        Course: "Unknown",
+        Course: "Energy and Environment Engineering Technology",
         Department: "Finance and Sponsorship",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "Engineering technology student from Universiti Malaysia Pahang. Working under Finance and sponsorship team in MSTC'19.",
+        About_Me: "Individual driven towards learning from real life and practical situations rather than sponging off a book.",
         Image: "rabiatul_mstc.jpg"
         },
     {
@@ -225,7 +225,7 @@ var MSTCMembers = [
         University: "University College London",
         Course: "Computer Science",
         Department: "Media and Marketing",
-        Position: "Head of Department",
+        Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "It's funny that I never like coffee and I'm afraid of snakes, but I have to deal with Java and Python occassionally.",
         Image: "derrick_mstc.png"
@@ -237,7 +237,7 @@ var MSTCMembers = [
         Department: "Media and Marketing",
         Position: "Head of Department",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
+        About_Me: "The thought of making things more efficient and working hard to think of cost-cutting, manpower reducing and simplified processes really is the highlight of an engineer.",
         Image: "sherree_mstc.png"
         },
     {
@@ -251,24 +251,24 @@ var MSTCMembers = [
         Image: "yunhong_mstc.jpg"
         },
     {
-        Name: "Zulhanais",
-        University: "Unknown",
-        Course: "Unknown",
+        Name: "Muhd Zulhanis Hassan",
+        University: "University of Malaya",
+        Course: "Applied Geology",
         Department: "Media and Marketing",
         Position: "Officer",
         About_MSTC: "Join MSTC, you'll never regret!",
-        About_Me: "I haven't reveal about myself yet.",
-        Image: "unknown.jpg"
+        About_Me: "Minerals hunting, either diamond or charcoal.",
+        Image: "zul_mstc.jpg"
         },
     {
         Name: "Jenn Tan Jia Yin",
         University: "Imperial College London",
         Course: "Unknown",
         Department: "Media and Marketing",
-        Position: "Officer",
+        Position: "Head of Department",
         About_MSTC: "Join MSTC, you'll never regret!",
         About_Me: "I haven't reveal about myself yet.",
-        Image: "unknown.jpg"
+        Image: "jenn_mstc.jpg"
         },
     {
         Name: "Jared Wong An Cheang",
@@ -389,7 +389,6 @@ function setModal(id) {
 
 
 
-
 $(document).ready(function () {
     var vid = document.getElementById("mstc_video");
     var ctx = document.getElementById('pieChart').getContext('2d');
@@ -398,237 +397,6 @@ $(document).ready(function () {
     var ctx4 = document.getElementById('pieChart4').getContext('2d');
     var ctx5 = document.getElementById('pieChart5').getContext('2d');
     var ctx6 = document.getElementById('pieChart6').getContext('2d');
-    var ctx7 = document.getElementById('pieChart7').getContext('2d');
-
-    var myPieChart = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-            labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
-            datasets: [{
-                backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
-                data: [4, 3, 7, 7, 8, 2]
-            }]
-        },
-        border: 0
-
-    });
-
-        setTimeout(typeWriter2, speed);
-    })
-
-
-
-function typeWriter3() {
-    if (k < txtTitle.length) {
-        document.getElementById("title_name").innerHTML += txtTitle.charAt(k);
-        k++;
-        setTimeout(typeWriter3, speed);
-    }
-
-
-}
-
-function setModalType(modal) {
-    modalType = modalArr[modal];
-}
-
-function modalBack() {
-    document.getElementById(modalType).style.visibility = "visible";
-
-}
-
-function setModal(id) {
-    i = 0;
-    j = 0;
-    k = 0;
-    document.getElementById(modalType).style.visibility = "hidden";
-    document.getElementById("memberName").innerHTML = "";
-    document.getElementById("department_name").innerHTML = "";
-    document.getElementById("description_name").innerHTML = "";
-    document.getElementById("title_name").innerHTML = "";
-
-
-
-    if (id != null) {
-        $("#member_img").attr("src", "assets/img/team/" + MSTCMembers[id].Image);
-        txtName = MSTCMembers[id].Name;
-        txtDept = MSTCMembers[id].Department;
-        txtTitle = MSTCMembers[id].Position;
-        txtDescription = MSTCMembers[id].University + '<br><br><br>' + MSTCMembers[id].Course + '<br><br><br>' + MSTCMembers[id].About_Me;
-        document.getElementById("description_name").innerHTML = txtDescription;
-        setTimeout(typeWriter, 500);
-        setTimeout(typeWriter2, 1500);
-        setTimeout(typeWriter3, 1500);
-    }
-
-}
-
-
-
-
-
-
-$(document).ready(function () {
-    var vid = document.getElementById("mstc_video");
-    var ctx = document.getElementById('pieChart').getContext('2d');
-    var ctx2 = document.getElementById('pieChart2').getContext('2d');
-    var ctx3 = document.getElementById('pieChart3').getContext('2d');
-    var ctx4 = document.getElementById('pieChart4').getContext('2d');
-    var ctx5 = document.getElementById('pieChart5').getContext('2d');
-    var ctx6 = document.getElementById('pieChart6').getContext('2d');
-    var ctx7 = document.getElementById('pieChart7').getContext('2d');
-
-    var myPieChart = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-            labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
-            datasets: [{
-                backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
-                data: [4, 3, 7, 7, 8, 2]
-            }]
-        },
-        border: 0
-
-    });
-
-        setTimeout(typeWriter2, speed);
-    })
-
-function typeWriter3() {
-    if (k < txtTitle.length) {
-        document.getElementById("title_name").innerHTML += txtTitle.charAt(k);
-        k++;
-        setTimeout(typeWriter3, speed);
-    }
-
-
-}
-
-function setModalType(modal) {
-    modalType = modalArr[modal];
-}
-
-function modalBack() {
-    document.getElementById(modalType).style.visibility = "visible";
-
-}
-
-function setModal(id) {
-    i = 0;
-    j = 0;
-    k = 0;
-    document.getElementById(modalType).style.visibility = "hidden";
-    document.getElementById("memberName").innerHTML = "";
-    document.getElementById("department_name").innerHTML = "";
-    document.getElementById("description_name").innerHTML = "";
-    document.getElementById("title_name").innerHTML = "";
-
-
-
-    if (id != null) {
-        $("#member_img").attr("src", "assets/img/team/" + MSTCMembers[id].Image);
-        txtName = MSTCMembers[id].Name;
-        txtDept = MSTCMembers[id].Department;
-        txtTitle = MSTCMembers[id].Position;
-        txtDescription = MSTCMembers[id].University + '<br><br><br>' + MSTCMembers[id].Course + '<br><br><br>' + MSTCMembers[id].About_Me;
-        document.getElementById("description_name").innerHTML = txtDescription;
-        setTimeout(typeWriter, 500);
-        setTimeout(typeWriter2, 1500);
-        setTimeout(typeWriter3, 1500);
-    }
-
-}
-
-
-
-
-
-
-$(document).ready(function () {
-    var vid = document.getElementById("mstc_video");
-    var ctx = document.getElementById('pieChart').getContext('2d');
-    var ctx2 = document.getElementById('pieChart2').getContext('2d');
-    var ctx3 = document.getElementById('pieChart3').getContext('2d');
-    var ctx4 = document.getElementById('pieChart4').getContext('2d');
-    var ctx5 = document.getElementById('pieChart5').getContext('2d');
-    var ctx6 = document.getElementById('pieChart6').getContext('2d');
-    var ctx7 = document.getElementById('pieChart7').getContext('2d');
-
-    var myPieChart = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-            labels: ["Advisors", "Executive", "Operations", "Finance", "Media", "HR"],
-            datasets: [{
-                backgroundColor: ["#2ecc71", "#34495e", "#f15840", "#9b59b6", "#f1c40f", "#F17CB0", "#3498db"],
-                data: [4, 3, 7, 7, 8, 2]
-            }]
-        },
-        border: 0
-
-    });
-
-        setTimeout(typeWriter2, speed);
-    })
-
-function typeWriter3() {
-    if (k < txtTitle.length) {
-        document.getElementById("title_name").innerHTML += txtTitle.charAt(k);
-        k++;
-        setTimeout(typeWriter3, speed);
-    }
-
-
-}
-
-function setModalType(modal) {
-    modalType = modalArr[modal];
-}
-
-function modalBack() {
-    document.getElementById(modalType).style.visibility = "visible";
-
-}
-
-function setModal(id) {
-    i = 0;
-    j = 0;
-    k = 0;
-    document.getElementById(modalType).style.visibility = "hidden";
-    document.getElementById("memberName").innerHTML = "";
-    document.getElementById("department_name").innerHTML = "";
-    document.getElementById("description_name").innerHTML = "";
-    document.getElementById("title_name").innerHTML = "";
-
-
-
-    if (id != null) {
-        $("#member_img").attr("src", "assets/img/team/" + MSTCMembers[id].Image);
-        txtName = MSTCMembers[id].Name;
-        txtDept = MSTCMembers[id].Department;
-        txtTitle = MSTCMembers[id].Position;
-        txtDescription = MSTCMembers[id].University + '<br><br><br>' + MSTCMembers[id].Course + '<br><br><br>' + MSTCMembers[id].About_Me;
-        document.getElementById("description_name").innerHTML = txtDescription;
-        setTimeout(typeWriter, 500);
-        setTimeout(typeWriter2, 1500);
-        setTimeout(typeWriter3, 1500);
-    }
-
-}
-
-
-
-
-
-
-$(document).ready(function () {
-    var vid = document.getElementById("mstc_video");
-    var ctx = document.getElementById('pieChart').getContext('2d');
-    var ctx2 = document.getElementById('pieChart2').getContext('2d');
-    var ctx3 = document.getElementById('pieChart3').getContext('2d');
-    var ctx4 = document.getElementById('pieChart4').getContext('2d');
-    var ctx5 = document.getElementById('pieChart5').getContext('2d');
-    var ctx6 = document.getElementById('pieChart6').getContext('2d');
-    var ctx7 = document.getElementById('pieChart7').getContext('2d');
 
     var myPieChart = new Chart(ctx, {
         type: 'doughnut',
@@ -660,10 +428,10 @@ $(document).ready(function () {
     var myPieChart3 = new Chart(ctx3, {
         type: 'doughnut',
         data: {
-            labels: ["Economics", "Unknown", "Mechanical", "Chemical", "Aerospace", "Physics", "Biomedical", "Computer Science", "Electric", "Maths/Business", "Civil", "Energy and Environmental"],
+            labels: ["Economics", "Unknown", "Mechanical", "Chemical", "Aerospace", "Physics", "Biomedical", "Computer Science", "Electric", "Maths/Business", "Civil", "Energy and Environmental", "Applied Geology"],
             datasets: [{
-                backgroundColor: ["#f15840","#111f5c","#f1c40f", "#2ecc71", "#34495e", "#54b033","#3299a8","#b03350", "#7dafc9", "#004717", "#d813ed", "#3260a8", "#4a6c52"],
-                data: [2, 6, 4, 8,2,1,1,1,2,1,1,1,1]
+                backgroundColor: ["#f15840","#111f5c","#f1c40f", "#2ecc71", "#34495e", "#54b033","#3299a8","#b03350", "#7dafc9", "#004717", "#d813ed", "#3260a8", "#4a6c52", "2f34f2"],
+                data: [2, 3, 4, 9,2,1,1,1,2,1,1,1,2,1]
             }]
         },
         border: 0
@@ -710,25 +478,6 @@ $(document).ready(function () {
             title: {
                 display: true,
                 text: ['To show more support to YME\'s flagship event,', 'this year\'s MSTC core team has the largest percentage of YME-BOD participations.']
-            }
-        },
-        border: 0
-
-    });
-
-    var myPieChart7 = new Chart(ctx7, {
-        type: 'doughnut',
-        data: {
-            labels: ["YME Members"],
-            datasets: [{
-                backgroundColor: ["#f15840"],
-                data: [31]
-            }]
-        },
-        options: {
-            title: {
-                display: true,
-                text: ['Joining MSTC core team will automatically makes you a part of YME and subscribed for YME Insider.', 'Totally worth it!']
             }
         },
         border: 0
